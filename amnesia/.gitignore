@@ -2,6 +2,7 @@ CMakeFiles
 CMakeScripts
 CMakeCache.txt
 *.cmake
+xcuserdata
 
 # not sure why core is duplicated here, ignoring for now
 core2
