@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="13F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17156" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <deployment version="1060" identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
+        <deployment version="101304" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17156"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -11,7 +12,7 @@
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customObject id="373" customClass="NSFontManager"/>
         <customObject id="811" customClass="LauncherAppDelegate">
             <connections>
@@ -153,12 +154,13 @@
                     </menu>
                 </menuItem>
             </items>
+            <point key="canvasLocation" x="-73" y="154"/>
         </menu>
         <window title="Amnesia: The Dark Descent Launcher" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="367">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="559" y="295" width="694" height="554"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1178"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
             <value key="minSize" type="size" width="694" height="554"/>
             <value key="maxSize" type="size" width="694" height="554"/>
             <view key="contentView" id="368">
@@ -171,16 +173,16 @@
                     <userLayoutGuide location="205" affinity="minY"/>
                 </userGuides>
                 <subviews>
-                    <imageView id="815">
+                    <imageView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="815">
                         <rect key="frame" x="0.0" y="1" width="694" height="554"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageAlignment="top" imageScaling="proportionallyUpOrDown" image="launcher_bg" id="816"/>
                     </imageView>
-                    <customView id="1221" customClass="TabBackground">
+                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1221" customClass="TabBackground">
                         <rect key="frame" x="53" y="48" width="588" height="180"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </customView>
-                    <tabView initialItem="825" id="824">
+                    <tabView fixedFrame="YES" initialItem="825" translatesAutoresizingMaskIntoConstraints="NO" id="824">
                         <rect key="frame" x="46" y="38" width="602" height="206"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <font key="font" metaFont="system"/>
@@ -190,7 +192,7 @@
                                     <rect key="frame" x="10" y="33" width="582" height="160"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <textField verticalHuggingPriority="750" id="844">
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="844">
                                             <rect key="frame" x="25" y="136" width="130" height="17"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Video Device:" id="845">
@@ -202,7 +204,7 @@
                                                 <binding destination="990" name="value" keyPath="selection.lblVideoDevice" id="998"/>
                                             </connections>
                                         </textField>
-                                        <textField verticalHuggingPriority="750" id="846" userLabel="Video Card Name">
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="846" userLabel="Video Card Name">
                                             <rect key="frame" x="157" y="136" width="289" height="17"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Generic HD 2500" id="847">
@@ -214,7 +216,7 @@
                                                 <binding destination="990" name="value" keyPath="selection.txtVideoDevice" id="1000"/>
                                             </connections>
                                         </textField>
-                                        <textField verticalHuggingPriority="750" id="848">
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="848">
                                             <rect key="frame" x="25" y="106" width="130" height="17"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Quality:" id="849">
@@ -226,12 +228,12 @@
                                                 <binding destination="990" name="value" keyPath="selection.lblQuality" id="1002"/>
                                             </connections>
                                         </textField>
-                                        <popUpButton verticalHuggingPriority="750" id="852" userLabel="Quality">
+                                        <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="852" userLabel="Quality">
                                             <rect key="frame" x="157" y="100" width="123" height="26"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <popUpButtonCell key="cell" type="push" title="Low" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="855" id="853">
                                                 <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                                <font key="font" metaFont="system"/>
+                                                <font key="font" metaFont="menu"/>
                                                 <menu key="menu" title="OtherViews" id="854">
                                                     <items>
                                                         <menuItem title="Low" state="on" id="855">
@@ -262,7 +264,7 @@
                                                 <binding destination="1020" name="selectedIndex" keyPath="selection.Quality" id="1366"/>
                                             </connections>
                                         </popUpButton>
-                                        <button verticalHuggingPriority="750" id="864">
+                                        <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="864">
                                             <rect key="frame" x="299" y="96" width="96" height="32"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <buttonCell key="cell" type="push" title="Detect" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="865">
@@ -274,7 +276,7 @@
                                                 <binding destination="990" name="title" keyPath="selection.lblDetect" id="1005"/>
                                             </connections>
                                         </button>
-                                        <textField verticalHuggingPriority="750" id="850">
+                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="850">
                                             <rect key="frame" x="25" y="76" width="130" height="17"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Language:" id="851">
@@ -286,12 +288,12 @@
                                                 <binding destination="990" name="value" keyPath="selection.lblLanguage" id="1003"/>
                                             </connections>
                                         </textField>
-                                        <popUpButton verticalHuggingPriority="750" id="858" userLabel="Language Choices">
+                                        <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="858" userLabel="Language Choices">
                                             <rect key="frame" x="157" y="70" width="123" height="26"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="859">
                                                 <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                                <font key="font" metaFont="system"/>
+                                                <font key="font" metaFont="menu"/>
                                                 <menu key="menu" title="OtherViews" id="860"/>
                                             </popUpButtonCell>
                                             <connections>
@@ -300,7 +302,7 @@
                                                 <binding destination="1020" name="selectedIndex" keyPath="selection.Language" previousBinding="1496" id="1504"/>
                                             </connections>
                                         </popUpButton>
-                                        <button verticalHuggingPriority="750" id="1573">
+                                        <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1573">
                                             <rect key="frame" x="154" y="26" width="241" height="32"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <buttonCell key="cell" type="push" title="Open Custom Stories" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1574">
@@ -322,7 +324,7 @@
                                     <rect key="frame" x="10" y="33" width="582" height="160"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <tabView drawsBackground="NO" type="noTabsNoBorder" initialItem="1151" id="1095">
+                                        <tabView fixedFrame="YES" drawsBackground="NO" type="noTabsNoBorder" initialItem="1151" translatesAutoresizingMaskIntoConstraints="NO" id="1095">
                                             <rect key="frame" x="-3" y="-4" width="591" height="181"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <font key="font" metaFont="system"/>
@@ -332,7 +334,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="591" height="181"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
-                                                            <textField verticalHuggingPriority="750" id="1161">
+                                                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1161">
                                                                 <rect key="frame" x="28" y="141" width="130" height="17"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Resolution:" id="1168">
@@ -344,12 +346,12 @@
                                                                     <binding destination="990" name="value" keyPath="selection.lblResolution" id="1195"/>
                                                                 </connections>
                                                             </textField>
-                                                            <popUpButton verticalHuggingPriority="750" id="1160" userLabel="Video Resolution">
+                                                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1160" userLabel="Video Resolution">
                                                                 <rect key="frame" x="160" y="135" width="123" height="26"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <popUpButtonCell key="cell" type="push" title="REPLACE ME" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" tag="-100" imageScaling="proportionallyDown" inset="2" selectedItem="1509" id="1169">
                                                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                                                    <font key="font" metaFont="system"/>
+                                                                    <font key="font" metaFont="menu"/>
                                                                     <menu key="menu" title="OtherViews" id="1170">
                                                                         <items>
                                                                             <menuItem title="REPLACE ME" state="on" tag="-100" id="1509">
@@ -374,7 +376,7 @@
                                                                     <binding destination="1020" name="selectedIndex" keyPath="selection.Resolution" previousBinding="1505" id="1576"/>
                                                                 </connections>
                                                             </popUpButton>
-                                                            <textField verticalHuggingPriority="750" id="1153">
+                                                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1153">
                                                                 <rect key="frame" x="28" y="111" width="130" height="17"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Texture Quality:" id="1185">
@@ -386,12 +388,12 @@
                                                                     <binding destination="990" name="value" keyPath="selection.lblTextureQuality" id="1204"/>
                                                                 </connections>
                                                             </textField>
-                                                            <popUpButton verticalHuggingPriority="750" id="1155" userLabel="Texture Quality">
+                                                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1155" userLabel="Texture Quality">
                                                                 <rect key="frame" x="160" y="105" width="123" height="26"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <popUpButtonCell key="cell" type="push" title="Low" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" tag="2" imageScaling="proportionallyDown" inset="2" selectedItem="1181" id="1179">
                                                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                                                    <font key="font" metaFont="system"/>
+                                                                    <font key="font" metaFont="menu"/>
                                                                     <menu key="menu" title="OtherViews" id="1180">
                                                                         <items>
                                                                             <menuItem title="Low" state="on" tag="2" id="1181">
@@ -416,7 +418,7 @@
                                                                     <binding destination="1020" name="selectedTag" keyPath="selection.TextureQuality" id="1484"/>
                                                                 </connections>
                                                             </popUpButton>
-                                                            <textField verticalHuggingPriority="750" id="1154">
+                                                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1154">
                                                                 <rect key="frame" x="28" y="80" width="130" height="17"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Shadow Quality:" id="1184">
@@ -428,12 +430,12 @@
                                                                     <binding destination="990" name="value" keyPath="selection.lblShadowQuality" id="1203"/>
                                                                 </connections>
                                                             </textField>
-                                                            <popUpButton verticalHuggingPriority="750" id="1162" userLabel="Shadow Quality">
+                                                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1162" userLabel="Shadow Quality">
                                                                 <rect key="frame" x="160" y="74" width="123" height="26"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <popUpButtonCell key="cell" type="push" title="Low" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="1165" id="1163">
                                                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                                                    <font key="font" metaFont="system"/>
+                                                                    <font key="font" metaFont="menu"/>
                                                                     <menu key="menu" title="OtherViews" id="1164">
                                                                         <items>
                                                                             <menuItem title="Low" state="on" id="1165">
@@ -458,7 +460,7 @@
                                                                     <binding destination="1020" name="selectedIndex" keyPath="selection.ShadowQuality" id="1344"/>
                                                                 </connections>
                                                             </popUpButton>
-                                                            <textField verticalHuggingPriority="750" id="1156">
+                                                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1156">
                                                                 <rect key="frame" x="305" y="80" width="130" height="17"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Shadow Resolution:" id="1178">
@@ -470,12 +472,12 @@
                                                                     <binding destination="990" name="value" keyPath="selection.lblShadowResolution" id="1190"/>
                                                                 </connections>
                                                             </textField>
-                                                            <popUpButton verticalHuggingPriority="750" id="1157" userLabel="Shadow Resolution">
+                                                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1157" userLabel="Shadow Resolution">
                                                                 <rect key="frame" x="437" y="74" width="123" height="26"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <popUpButtonCell key="cell" type="push" title="Low" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="1175" id="1173">
                                                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                                                    <font key="font" metaFont="system"/>
+                                                                    <font key="font" metaFont="menu"/>
                                                                     <menu key="menu" title="OtherViews" id="1174">
                                                                         <items>
                                                                             <menuItem title="Low" state="on" id="1175">
@@ -500,7 +502,7 @@
                                                                     <binding destination="1020" name="selectedIndex" keyPath="selection.ShadowResolution" id="1347"/>
                                                                 </connections>
                                                             </popUpButton>
-                                                            <button id="1158">
+                                                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1158">
                                                                 <rect key="frame" x="306" y="140" width="193" height="18"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <buttonCell key="cell" type="check" title="Full screen" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="1172">
@@ -508,11 +510,11 @@
                                                                     <font key="font" metaFont="system"/>
                                                                 </buttonCell>
                                                                 <connections>
-                                                                    <binding destination="990" name="title" keyPath="selection.lblFullScreen" id="1191"/>
                                                                     <binding destination="1020" name="value" keyPath="selection.FullScreen" id="1449"/>
+                                                                    <binding destination="990" name="title" keyPath="selection.lblFullScreen" id="1191"/>
                                                                 </connections>
                                                             </button>
-                                                            <button verticalHuggingPriority="750" id="1159">
+                                                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1159">
                                                                 <rect key="frame" x="302" y="9" width="201" height="32"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <buttonCell key="cell" type="push" title="Show Advanced" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1171">
@@ -532,7 +534,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="591" height="181"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
-                                                            <textField verticalHuggingPriority="750" id="1375">
+                                                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1375">
                                                                 <rect key="frame" x="28" y="141" width="130" height="17"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Texture Filter:" id="1376">
@@ -544,12 +546,12 @@
                                                                     <binding destination="990" name="value" keyPath="selection.lblTextureFilter" id="1408"/>
                                                                 </connections>
                                                             </textField>
-                                                            <popUpButton verticalHuggingPriority="750" id="1395" userLabel="Texture Filter">
+                                                            <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1395" userLabel="Texture Filter">
                                                                 <rect key="frame" x="160" y="135" width="123" height="26"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <popUpButtonCell key="cell" type="push" title="Nearest" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="1398" id="1396">
                                                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                                                    <font key="font" metaFont="system"/>
+                                                                    <font key="font" metaFont="menu"/>
                                                                     <menu key="menu" title="OtherViews" id="1397">
                                                                         <items>
                                                                             <menuItem title="Nearest" state="on" id="1398">
@@ -574,7 +576,7 @@
                                                                     <binding destination="1020" name="selectedIndex" keyPath="selection.TextureFilter" id="1421"/>
                                                                 </connections>
                                                             </popUpButton>
-                                                            <textField verticalHuggingPriority="750" id="1371">
+                                                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1371">
                                                                 <rect key="frame" x="305" y="141" width="130" height="17"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Anisotropy" id="1372">
@@ -586,12 +588,12 @@
                                                                     <binding destination="990" name="value" keyPath="selection.lblAnisotropy" id="1411"/>
                                                                 </connections>
                                                             </textField>
-                                                            <popUpButton verticalHuggingPriority="750" id="1383" userLabel="Texture Anisotropy">
+                                                            <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1383" userLabel="Texture Anisotropy">
                                                                 <rect key="frame" x="437" y="135" width="123" height="26"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <popUpButtonCell key="cell" type="push" title="Off" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" tag="1" imageScaling="proportionallyDown" inset="2" selectedItem="1386" id="1384">
                                                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                                                    <font key="font" metaFont="system"/>
+                                                                    <font key="font" metaFont="menu"/>
                                                                     <menu key="menu" title="OtherViews" id="1385">
                                                                         <items>
                                                                             <menuItem title="Off" state="on" tag="1" id="1386">
@@ -610,7 +612,7 @@
                                                                     <binding destination="1020" name="selectedTag" keyPath="selection.TextureAnisotropy" id="1482"/>
                                                                 </connections>
                                                             </popUpButton>
-                                                            <textField verticalHuggingPriority="750" id="1373">
+                                                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1373">
                                                                 <rect key="frame" x="305" y="51" width="130" height="17"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Parallax" id="1374">
@@ -622,12 +624,12 @@
                                                                     <binding destination="990" name="value" keyPath="selection.lblParallax" id="1410"/>
                                                                 </connections>
                                                             </textField>
-                                                            <popUpButton verticalHuggingPriority="750" id="1389" userLabel="Parallax">
+                                                            <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1389" userLabel="Parallax">
                                                                 <rect key="frame" x="437" y="45" width="123" height="26"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <popUpButtonCell key="cell" type="push" title="Off" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="1392" id="1390">
                                                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                                                    <font key="font" metaFont="system"/>
+                                                                    <font key="font" metaFont="menu"/>
                                                                     <menu key="menu" title="OtherViews" id="1391">
                                                                         <items>
                                                                             <menuItem title="Off" state="on" id="1392">
@@ -647,7 +649,7 @@
                                                                     <binding destination="1020" name="selectedIndex" keyPath="selection.Parallax" id="1432"/>
                                                                 </connections>
                                                             </popUpButton>
-                                                            <textField verticalHuggingPriority="750" id="1367">
+                                                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1367">
                                                                 <rect key="frame" x="305" y="111" width="130" height="17"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="SSAO Resolution" id="1368">
@@ -659,12 +661,12 @@
                                                                     <binding destination="990" name="value" keyPath="selection.lblSSAOResolution" id="1412"/>
                                                                 </connections>
                                                             </textField>
-                                                            <popUpButton verticalHuggingPriority="750" id="1377" userLabel="SSAO Resolution">
+                                                            <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1377" userLabel="SSAO Resolution">
                                                                 <rect key="frame" x="437" y="105" width="123" height="26"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <popUpButtonCell key="cell" type="push" title="Medium" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="1380" id="1378">
                                                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                                                    <font key="font" metaFont="system"/>
+                                                                    <font key="font" metaFont="menu"/>
                                                                     <menu key="menu" title="OtherViews" id="1379">
                                                                         <items>
                                                                             <menuItem title="Medium" state="on" id="1380">
@@ -684,7 +686,7 @@
                                                                     <binding destination="1020" name="selectedIndex" keyPath="selection.SSAOResolution" id="1433"/>
                                                                 </connections>
                                                             </popUpButton>
-                                                            <textField verticalHuggingPriority="750" id="1464">
+                                                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1464">
                                                                 <rect key="frame" x="305" y="81" width="130" height="17"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="SSAO Samples" id="1465">
@@ -696,12 +698,12 @@
                                                                     <binding destination="990" name="value" keyPath="selection.lblSSAOSamples" id="1467"/>
                                                                 </connections>
                                                             </textField>
-                                                            <popUpButton verticalHuggingPriority="750" id="1456" userLabel="SSAO Samples">
+                                                            <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1456" userLabel="SSAO Samples">
                                                                 <rect key="frame" x="437" y="75" width="123" height="26"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="1457">
                                                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                                                    <font key="font" metaFont="system"/>
+                                                                    <font key="font" metaFont="menu"/>
                                                                     <menu key="menu" title="OtherViews" id="1458">
                                                                         <items>
                                                                             <menuItem title="4" tag="4" id="1459"/>
@@ -715,7 +717,7 @@
                                                                     <binding destination="1020" name="selectedTag" keyPath="selection.SSAOSamples" id="1473"/>
                                                                 </connections>
                                                             </popUpButton>
-                                                            <button id="1401">
+                                                            <button translatesAutoresizingMaskIntoConstraints="NO" id="1401">
                                                                 <rect key="frame" x="120" y="110" width="162" height="18"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <buttonCell key="cell" type="check" title="SSAO" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="1402">
@@ -726,7 +728,7 @@
                                                                     <binding destination="1020" name="value" keyPath="selection.SSAOActive" id="1483"/>
                                                                 </connections>
                                                             </button>
-                                                            <button id="1403">
+                                                            <button translatesAutoresizingMaskIntoConstraints="NO" id="1403">
                                                                 <rect key="frame" x="120" y="80" width="162" height="18"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <buttonCell key="cell" type="check" title="Edge Smooth" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="1404">
@@ -734,11 +736,11 @@
                                                                     <font key="font" metaFont="system"/>
                                                                 </buttonCell>
                                                                 <connections>
-                                                                    <binding destination="990" name="title" keyPath="selection.lblEdgeSmooth" id="1415"/>
                                                                     <binding destination="1020" name="value" keyPath="selection.EdgeSmooth" id="1438"/>
+                                                                    <binding destination="990" name="title" keyPath="selection.lblEdgeSmooth" id="1415"/>
                                                                 </connections>
                                                             </button>
-                                                            <button id="1405">
+                                                            <button translatesAutoresizingMaskIntoConstraints="NO" id="1405">
                                                                 <rect key="frame" x="120" y="50" width="162" height="18"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <buttonCell key="cell" type="check" title="World Reflection" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="1406">
@@ -746,11 +748,11 @@
                                                                     <font key="font" metaFont="system"/>
                                                                 </buttonCell>
                                                                 <connections>
-                                                                    <binding destination="990" name="title" keyPath="selection.lblWorldReflection" id="1416"/>
                                                                     <binding destination="1020" name="value" keyPath="selection.WorldReflection" id="1439"/>
+                                                                    <binding destination="990" name="title" keyPath="selection.lblWorldReflection" id="1416"/>
                                                                 </connections>
                                                             </button>
-                                                            <button verticalHuggingPriority="750" id="1215">
+                                                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1215">
                                                                 <rect key="frame" x="302" y="9" width="201" height="32"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                                 <buttonCell key="cell" type="push" title="Show Basic" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1216">
@@ -781,7 +783,7 @@
                                     <rect key="frame" x="10" y="33" width="582" height="160"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <textField verticalHuggingPriority="750" id="901">
+                                        <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="901">
                                             <rect key="frame" x="25" y="136" width="130" height="17"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Device:" id="902">
@@ -793,12 +795,12 @@
                                                 <binding destination="990" name="value" keyPath="selection.lblDevice" id="1018"/>
                                             </connections>
                                         </textField>
-                                        <popUpButton verticalHuggingPriority="750" id="903" userLabel="OpenAL Device">
+                                        <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="903" userLabel="OpenAL Device">
                                             <rect key="frame" x="157" y="130" width="269" height="26"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="904">
                                                 <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                                <font key="font" metaFont="system"/>
+                                                <font key="font" metaFont="menu"/>
                                                 <menu key="menu" title="OtherViews" id="905"/>
                                             </popUpButtonCell>
                                             <connections>
@@ -819,7 +821,7 @@
                             <outlet property="nextKeyView" destination="1562" id="1572"/>
                         </connections>
                     </tabView>
-                    <button verticalHuggingPriority="750" id="829">
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="829">
                         <rect key="frame" x="355" y="10" width="96" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="830">
@@ -835,7 +837,7 @@ Gw
                             <outlet property="nextKeyView" destination="1559" id="1569"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" id="831">
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="831">
                         <rect key="frame" x="214" y="10" width="125" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Launch Game" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="832">
@@ -848,7 +850,7 @@ Gw
                             <outlet property="nextKeyView" destination="829" id="1568"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" id="1562">
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1562">
                         <rect key="frame" x="14" y="10" width="96" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Remember" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1563">
@@ -860,12 +862,12 @@ Gw
                             <outlet property="nextKeyView" destination="831" id="1567"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" tag="2" id="1559">
+                    <button verticalHuggingPriority="750" fixedFrame="YES" tag="2" translatesAutoresizingMaskIntoConstraints="NO" id="1559">
                         <rect key="frame" x="584" y="10" width="96" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Justine" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1560">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" size="13" name=".LucidaGrandeUI"/>
+                            <font key="font" metaFont="system"/>
                         </buttonCell>
                         <connections>
                             <action selector="launchButton:" target="811" id="1561"/>
@@ -878,18 +880,19 @@ Gw
                 <outlet property="delegate" destination="811" id="813"/>
                 <outlet property="initialFirstResponder" destination="831" id="1570"/>
             </connections>
+            <point key="canvasLocation" x="140" y="147"/>
         </window>
         <window title="Add Custom Resolution" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="1536">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="183" y="289" width="232" height="116"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1178"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
             <value key="minSize" type="size" width="232" height="116"/>
             <view key="contentView" id="1537">
                 <rect key="frame" x="0.0" y="0.0" width="232" height="116"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button verticalHuggingPriority="750" id="1517">
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1517">
                         <rect key="frame" x="26" y="12" width="96" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                         <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1518">
@@ -903,7 +906,7 @@ Gw
                             <action selector="dismissCustomResolution:" target="811" id="1555"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" id="1519">
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1519">
                         <rect key="frame" x="122" y="12" width="96" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                         <buttonCell key="cell" type="push" title="Add" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1520">
@@ -917,7 +920,7 @@ DQ
                             <action selector="addCustomResolution:" target="811" id="1554"/>
                         </connections>
                     </button>
-                    <textField verticalHuggingPriority="750" id="1521">
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1521">
                         <rect key="frame" x="100" y="74" width="96" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="1522">
@@ -925,11 +928,11 @@ DQ
                                 <real key="minimum" value="640"/>
                             </numberFormatter>
                             <font key="font" metaFont="system"/>
-                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="1526">
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1526">
                         <rect key="frame" x="17" y="76" width="78" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Width:" id="1527">
@@ -938,7 +941,7 @@ DQ
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="1528">
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1528">
                         <rect key="frame" x="100" y="46" width="96" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="1531">
@@ -946,11 +949,11 @@ DQ
                                 <real key="minimum" value="480"/>
                             </numberFormatter>
                             <font key="font" metaFont="system"/>
-                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="1529">
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1529">
                         <rect key="frame" x="17" y="48" width="78" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Height:" id="1530">
@@ -964,6 +967,6 @@ DQ
         </window>
     </objects>
     <resources>
-        <image name="launcher_bg" width="509.87799072265625" height="407"/>
+        <image name="launcher_bg" width="509.8775634765625" height="407"/>
     </resources>
 </document>
