@@ -1,0 +1,8 @@
+CMakeFiles
+CMakeScripts
+CMakeCache.txt
+*.cmake
+
+# not sure why core is duplicated here, ignoring for now
+core2
+
