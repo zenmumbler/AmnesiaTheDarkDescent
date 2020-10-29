@@ -31,6 +31,8 @@
 #import <AL/alc.h>
 #import <AL/alext.h>
 
+#include <OpenGL/gl3.h>
+
 #import "system/Platform.h"
 #import "system/String.h"
 
