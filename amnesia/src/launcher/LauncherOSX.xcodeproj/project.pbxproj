@@ -1,0 +1,1193 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2505335FA96C420BBD05894B /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 93AD425B3FE14DBC916443B1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				E41B00D8F1FE418F882F8EEB /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		A190A83675FF4DE6899245EF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E6AD0C9688F94034A236B6D0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A70AAA558F864C05B452FD5C /* CMake Rules */,
+			);
+			dependencies = (
+				B4A53F1F964A4DABA2E31B60 /* PBXTargetDependency */,
+				52FF37796A534171B150ED7B /* PBXTargetDependency */,
+				2637B37F25E6447A92AB5317 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		C694BE2ADFB74757BA01F65F /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 432FB5BBA5F842C596933A82 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				002DACEF19D84FA3B62149A4 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				8F97D13F155B4719820607F7 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		12153907E7B64ADC8ABE4616 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/graphics/Color.h */ = {isa = PBXBuildFile; fileRef = 575A44167BC942D39546ABE9 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/graphics/Color.h */; };
+		1E68156D5F4A4C5F87F85462 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/resources/LanguageFile.cpp */ = {isa = PBXBuildFile; fileRef = 1B9A87A141FC4CA78BDF7CF2 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/resources/LanguageFile.cpp */; };
+		20DD0198EA2840198ED3F9CB /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/graphics/GraphicsTypes.h */ = {isa = PBXBuildFile; fileRef = 89345C95AEA04C0E9F6CAE99 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/graphics/GraphicsTypes.h */; };
+		22A26870F5F24914BD4D9AF2 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/Qualitychooser.h */ = {isa = PBXBuildFile; fileRef = 0ACC6B593F6C4430A90DCF7D /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/Qualitychooser.h */; };
+		2EF6CC9529DC43A28F123F4C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/math/CRC.cpp */ = {isa = PBXBuildFile; fileRef = 566207F1489E4927A356C92C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/math/CRC.cpp */; };
+		328C8C6C09D34A6C80CB4A92 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/system/String.h */ = {isa = PBXBuildFile; fileRef = F05FB7A250CD4AE5BB6E382C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/system/String.h */; };
+		3703CFEF16174F058E8569FB /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A28BC92DB92E4B40875A39B0 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/CMakeLists.txt */; };
+		38B4E4CC30D64536BF28B75D /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/system/Platform.h */ = {isa = PBXBuildFile; fileRef = D3FBFA52AD2346E892E712AB /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/system/Platform.h */; };
+		3BDEFE072E4540B3A51F0B0B /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/CMakeFiles/Launcher.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 2FE2C70A3A54463282B2F0F2 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/CMakeFiles/Launcher.dir/Info.plist */; };
+		4C480412F9A848E9BC30B3EC /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/tinyXml/tinystr.cpp */ = {isa = PBXBuildFile; fileRef = 8B4F9F849E1249ACA32F9458 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/tinyXml/tinystr.cpp */; };
+		504862BBC21D4D6B99F4EC9B /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/MainWindow.xib */ = {isa = PBXBuildFile; fileRef = F8519FEB44B04281A58FE7FE /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/MainWindow.xib */; };
+		544EF031C00544D1AB1D90E4 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/HPLMinimal.mm */ = {isa = PBXBuildFile; fileRef = 48307AEC80A040CFAD736645 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/HPLMinimal.mm */; };
+		5CEB5077EFD34BD6AC4E6622 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/TabBackground.h */ = {isa = PBXBuildFile; fileRef = 02B57F93585C4028A3A377AE /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/TabBackground.h */; };
+		5E640B69B9D24A44B595D90F /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/launcher_bg.jpg */ = {isa = PBXBuildFile; fileRef = 5ADCA18A4AC64B0197E6B95C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/launcher_bg.jpg */; };
+		6CE7E2682E634433AC190B49 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/system/String.cpp */ = {isa = PBXBuildFile; fileRef = 197A0B7B94BE4D2ABD2D76E6 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/system/String.cpp */; };
+		748A1490B8A8461E8943DE5B /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 53B9AFAE2D5D48CE9035C736 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/CMakeLists.txt */; };
+		76BBA2F27B6D4E8EAA54B6F5 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/graphics/GraphicsTypes.cpp */ = {isa = PBXBuildFile; fileRef = 55C12112156A426987F90690 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/graphics/GraphicsTypes.cpp */; };
+		7C8859403BA34DBE91F1B332 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/PlatformSDL.cpp */ = {isa = PBXBuildFile; fileRef = D6368B16F9F54630B88BA6C9 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/PlatformSDL.cpp */; };
+		818B3FE74593423C9459E9EE /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/tinyXml/tinyxml.cpp */ = {isa = PBXBuildFile; fileRef = 3A81C0E1E58A4D69BD70F865 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/tinyXml/tinyxml.cpp */; };
+		8B59474506B74F9B924943DD /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/system/Platform.cpp */ = {isa = PBXBuildFile; fileRef = 9BE701BA0A3344228493BB54 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/system/Platform.cpp */; };
+		8E070C093E62490B9EECB81D /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/TabBackground.m */ = {isa = PBXBuildFile; fileRef = 0EEDEDEEA8F7428D9F18EAC0 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/TabBackground.m */; };
+		8FD38BD4824746CBB70E5AF6 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/game/Lux.icns */ = {isa = PBXBuildFile; fileRef = B5501411CDDB4E64B7685EDF /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/game/Lux.icns */; };
+		968D4FB377D74E98BBBA7FFF /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/resources/LanguageFile.h */ = {isa = PBXBuildFile; fileRef = 65CEC6F83EAE4BB0B4E08F2F /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/resources/LanguageFile.h */; };
+		A6FBDDDD4A6243F5A22AFCCE /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/main.m */ = {isa = PBXBuildFile; fileRef = 312E1D4DC7ED4B49963E530F /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/main.m */; };
+		A9BD821A410845629817F2C1 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/Startup.plist */ = {isa = PBXBuildFile; fileRef = 484C77F4713448E2827252F3 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/Startup.plist */; };
+		AA27DD40E22444B2952BEAEC /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/LauncherAppDelegate.mm */ = {isa = PBXBuildFile; fileRef = 718E503512D84A898DEE60ED /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/LauncherAppDelegate.mm */; };
+		B13A57757C7E4392B4904029 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/PlatformMacOSX.mm */ = {isa = PBXBuildFile; fileRef = 42AA120AF09E417F93964400 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/PlatformMacOSX.mm */; };
+		C573BC014C9049F18A59D4D3 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/resources/BinaryBuffer.cpp */ = {isa = PBXBuildFile; fileRef = 3F4E83E9DF914C1F8AA5A506 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/resources/BinaryBuffer.cpp */; };
+		C97DAFA884354BBD8FAFB348 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/resources/ConfigFile.h */ = {isa = PBXBuildFile; fileRef = 191908609D434C6CB2C9423B /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/resources/ConfigFile.h */; };
+		CB03FA8A0C964DD8B3B311A7 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/LauncherAppDelegate.h */ = {isa = PBXBuildFile; fileRef = F0E650558EB44900BBDB4471 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/LauncherAppDelegate.h */; };
+		CB12A0088BB84EBABEA7A973 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/resources/BinaryBuffer.h */ = {isa = PBXBuildFile; fileRef = 354E211C80D94249A079E8C2 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/resources/BinaryBuffer.h */; };
+		CEA5B1D2EFAC4C1CB6587FF6 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/resources/ConfigFile.cpp */ = {isa = PBXBuildFile; fileRef = 67EFC9CEDA20431AA24850A7 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/resources/ConfigFile.cpp */; };
+		DA03E3748B684DD78A2673DA /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/graphics/Color.cpp */ = {isa = PBXBuildFile; fileRef = 62F3CA46B5E0477F8BD3F0B2 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/graphics/Color.cpp */; };
+		DB3D1D6B18974FD5B02FB49B /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/Qualitychooser.cpp */ = {isa = PBXBuildFile; fileRef = 3918046BE5B24EFC9080AFE9 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/Qualitychooser.cpp */; };
+		E29DF6DF3B2B4DCDAA4EB974 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/PlatformUnix.cpp */ = {isa = PBXBuildFile; fileRef = F635EFF7DE72438284529256 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/PlatformUnix.cpp */; };
+		E7790EAE3292489680E28752 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/tinyXml/tinyxmlerror.cpp */ = {isa = PBXBuildFile; fileRef = ABCEB1714B6043348F3A9825 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/tinyXml/tinyxmlerror.cpp */; };
+		E9910E17A21846178A94FA77 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/HPLMinimal.h */ = {isa = PBXBuildFile; fileRef = 2E587A651E6F48AB8BF500B5 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/HPLMinimal.h */; };
+		F23B9A8148A34D60A21AFE49 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/math/CRC.h */ = {isa = PBXBuildFile; fileRef = 577B0DBCC538403B831FB894 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/math/CRC.h */; };
+		F65BA1FCB60D423186874644 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/tinyXml/tinyxmlparser.cpp */ = {isa = PBXBuildFile; fileRef = 34926049371F4AAC944A81ED /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/tinyXml/tinyxmlparser.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0FDA332B348A43C1A7786873 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		14FD19A93A3348BD93871594 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		30FFE184D1734C1D9C639413 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		3F89BFBAFA6C4A2FB7C06097 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2B1C10EE66FB4AF4873F3C1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F58CA32F15B42459681E5AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 571E244BD8324D53BAB86DE6;
+			remoteInfo = HPL2_Minimal;
+		};
+		3A0BEE6FA9894F9F9996FC95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F58CA32F15B42459681E5AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2505335FA96C420BBD05894B;
+			remoteInfo = ZERO_CHECK;
+		};
+		462FDEE336EA4699A5071E68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F58CA32F15B42459681E5AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 571E244BD8324D53BAB86DE6;
+			remoteInfo = HPL2_Minimal;
+		};
+		69DEFB088BBD488192C05923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F58CA32F15B42459681E5AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BFE53039719421EA633D89A;
+			remoteInfo = Launcher;
+		};
+		91FCD8E67C4A4BC1AD4DAA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F58CA32F15B42459681E5AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2505335FA96C420BBD05894B;
+			remoteInfo = ZERO_CHECK;
+		};
+		A25CBEAF2E4F48BB98EA0578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F58CA32F15B42459681E5AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2505335FA96C420BBD05894B;
+			remoteInfo = ZERO_CHECK;
+		};
+		D80FF4DB6B9344FDB8B73A68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F58CA32F15B42459681E5AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A190A83675FF4DE6899245EF;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B57F93585C4028A3A377AE /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/TabBackground.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TabBackground.h; path = TabBackground.h; sourceTree = SOURCE_ROOT; };
+		0ACC6B593F6C4430A90DCF7D /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/Qualitychooser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Qualitychooser.h; path = ../launcher/Qualitychooser.h; sourceTree = SOURCE_ROOT; };
+		0EEDEDEEA8F7428D9F18EAC0 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/TabBackground.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = TabBackground.m; path = TabBackground.m; sourceTree = SOURCE_ROOT; };
+		191908609D434C6CB2C9423B /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/resources/ConfigFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ConfigFile.h; path = ../../../HPL2/core/include/resources/ConfigFile.h; sourceTree = SOURCE_ROOT; };
+		197A0B7B94BE4D2ABD2D76E6 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/system/String.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = String.cpp; path = ../../../HPL2/core/sources/system/String.cpp; sourceTree = SOURCE_ROOT; };
+		1B9A87A141FC4CA78BDF7CF2 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/resources/LanguageFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = LanguageFile.cpp; path = ../../../HPL2/core/sources/resources/LanguageFile.cpp; sourceTree = SOURCE_ROOT; };
+		2E587A651E6F48AB8BF500B5 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/HPLMinimal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HPLMinimal.h; path = HPLMinimal.h; sourceTree = SOURCE_ROOT; };
+		2FE2C70A3A54463282B2F0F2 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/CMakeFiles/Launcher.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../launcher/CMakeFiles/Launcher.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		312E1D4DC7ED4B49963E530F /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/main.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = main.m; path = main.m; sourceTree = SOURCE_ROOT; };
+		34926049371F4AAC944A81ED /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/tinyXml/tinyxmlparser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxmlparser.cpp; path = ../../../HPL2/core/sources/impl/tinyXml/tinyxmlparser.cpp; sourceTree = SOURCE_ROOT; };
+		354E211C80D94249A079E8C2 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/resources/BinaryBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = BinaryBuffer.h; path = ../../../HPL2/core/include/resources/BinaryBuffer.h; sourceTree = SOURCE_ROOT; };
+		3918046BE5B24EFC9080AFE9 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/Qualitychooser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Qualitychooser.cpp; path = ../launcher/Qualitychooser.cpp; sourceTree = SOURCE_ROOT; };
+		3A81C0E1E58A4D69BD70F865 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/tinyXml/tinyxml.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml.cpp; path = ../../../HPL2/core/sources/impl/tinyXml/tinyxml.cpp; sourceTree = SOURCE_ROOT; };
+		3F4E83E9DF914C1F8AA5A506 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/resources/BinaryBuffer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BinaryBuffer.cpp; path = ../../../HPL2/core/sources/resources/BinaryBuffer.cpp; sourceTree = SOURCE_ROOT; };
+		42AA120AF09E417F93964400 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/PlatformMacOSX.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = PlatformMacOSX.mm; path = ../../../HPL2/core/sources/impl/PlatformMacOSX.mm; sourceTree = SOURCE_ROOT; };
+		48307AEC80A040CFAD736645 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/HPLMinimal.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = HPLMinimal.mm; path = HPLMinimal.mm; sourceTree = SOURCE_ROOT; };
+		484C77F4713448E2827252F3 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/Startup.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Startup.plist; path = Startup.plist; sourceTree = SOURCE_ROOT; };
+		4A00B68B3877442BA0D13040 /* Launcher */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Launcher; sourceTree = BUILT_PRODUCTS_DIR; };
+		514A24352313410CBA87D92C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		53B9AFAE2D5D48CE9035C736 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		555F94F8CC054A18B6428E15 /* HPL2_Minimal */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHPL2_Minimal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C12112156A426987F90690 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/graphics/GraphicsTypes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GraphicsTypes.cpp; path = ../../../HPL2/core/sources/graphics/GraphicsTypes.cpp; sourceTree = SOURCE_ROOT; };
+		566207F1489E4927A356C92C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/math/CRC.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CRC.cpp; path = ../../../HPL2/core/sources/math/CRC.cpp; sourceTree = SOURCE_ROOT; };
+		575A44167BC942D39546ABE9 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/graphics/Color.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Color.h; path = ../../../HPL2/core/include/graphics/Color.h; sourceTree = SOURCE_ROOT; };
+		577B0DBCC538403B831FB894 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/math/CRC.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CRC.h; path = ../../../HPL2/core/include/math/CRC.h; sourceTree = SOURCE_ROOT; };
+		5ADCA18A4AC64B0197E6B95C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/launcher_bg.jpg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = image; name = launcher_bg.jpg; path = launcher_bg.jpg; sourceTree = SOURCE_ROOT; };
+		62F3CA46B5E0477F8BD3F0B2 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/graphics/Color.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Color.cpp; path = ../../../HPL2/core/sources/graphics/Color.cpp; sourceTree = SOURCE_ROOT; };
+		65CEC6F83EAE4BB0B4E08F2F /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/resources/LanguageFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = LanguageFile.h; path = ../../../HPL2/core/include/resources/LanguageFile.h; sourceTree = SOURCE_ROOT; };
+		67EFC9CEDA20431AA24850A7 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/resources/ConfigFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ConfigFile.cpp; path = ../../../HPL2/core/sources/resources/ConfigFile.cpp; sourceTree = SOURCE_ROOT; };
+		718E503512D84A898DEE60ED /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/LauncherAppDelegate.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = LauncherAppDelegate.mm; path = LauncherAppDelegate.mm; sourceTree = SOURCE_ROOT; };
+		89345C95AEA04C0E9F6CAE99 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/graphics/GraphicsTypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GraphicsTypes.h; path = ../../../HPL2/core/include/graphics/GraphicsTypes.h; sourceTree = SOURCE_ROOT; };
+		8B4F9F849E1249ACA32F9458 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/tinyXml/tinystr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinystr.cpp; path = ../../../HPL2/core/sources/impl/tinyXml/tinystr.cpp; sourceTree = SOURCE_ROOT; };
+		9BE701BA0A3344228493BB54 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/system/Platform.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Platform.cpp; path = ../../../HPL2/core/sources/system/Platform.cpp; sourceTree = SOURCE_ROOT; };
+		A28BC92DB92E4B40875A39B0 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		ABCEB1714B6043348F3A9825 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/tinyXml/tinyxmlerror.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxmlerror.cpp; path = ../../../HPL2/core/sources/impl/tinyXml/tinyxmlerror.cpp; sourceTree = SOURCE_ROOT; };
+		B5501411CDDB4E64B7685EDF /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/game/Lux.icns */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = Lux.icns; path = ../game/Lux.icns; sourceTree = SOURCE_ROOT; };
+		D3FBFA52AD2346E892E712AB /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/system/Platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Platform.h; path = ../../../HPL2/core/include/system/Platform.h; sourceTree = SOURCE_ROOT; };
+		D6368B16F9F54630B88BA6C9 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/PlatformSDL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PlatformSDL.cpp; path = ../../../HPL2/core/sources/impl/PlatformSDL.cpp; sourceTree = SOURCE_ROOT; };
+		F05FB7A250CD4AE5BB6E382C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/system/String.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = String.h; path = ../../../HPL2/core/include/system/String.h; sourceTree = SOURCE_ROOT; };
+		F0E650558EB44900BBDB4471 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/LauncherAppDelegate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = LauncherAppDelegate.h; path = LauncherAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		F635EFF7DE72438284529256 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/PlatformUnix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PlatformUnix.cpp; path = ../../../HPL2/core/sources/impl/PlatformUnix.cpp; sourceTree = SOURCE_ROOT; };
+		F8519FEB44B04281A58FE7FE /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = MainWindow.xib; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0EA2750856D04C69A273CDEF /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				B9F4F2BA3FD4459BAB810D7E /* CMake Rules */,
+				514A24352313410CBA87D92C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		3D708007BCA74B59934EDC34 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0E650558EB44900BBDB4471 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/LauncherAppDelegate.h */,
+				02B57F93585C4028A3A377AE /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/TabBackground.h */,
+				0ACC6B593F6C4430A90DCF7D /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/Qualitychooser.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		40B65F0943494B5AA624C660 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				555F94F8CC054A18B6428E15 /* HPL2_Minimal */,
+				4A00B68B3877442BA0D13040 /* Launcher */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B5E05252C8648089745F1FA /* HPL2_Minimal */ = {
+			isa = PBXGroup;
+			children = (
+				FA10DEEB8219486AAE366825 /* Header Files */,
+				7F3A4CE86C3541F1B520B051 /* Source Files */,
+				53B9AFAE2D5D48CE9035C736 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/CMakeLists.txt */,
+			);
+			name = HPL2_Minimal;
+			sourceTree = "<group>";
+		};
+		7F3A4CE86C3541F1B520B051 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				62F3CA46B5E0477F8BD3F0B2 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/graphics/Color.cpp */,
+				55C12112156A426987F90690 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/graphics/GraphicsTypes.cpp */,
+				42AA120AF09E417F93964400 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/PlatformMacOSX.mm */,
+				D6368B16F9F54630B88BA6C9 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/PlatformSDL.cpp */,
+				F635EFF7DE72438284529256 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/PlatformUnix.cpp */,
+				8B4F9F849E1249ACA32F9458 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/tinyXml/tinystr.cpp */,
+				3A81C0E1E58A4D69BD70F865 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/tinyXml/tinyxml.cpp */,
+				ABCEB1714B6043348F3A9825 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/tinyXml/tinyxmlerror.cpp */,
+				34926049371F4AAC944A81ED /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/tinyXml/tinyxmlparser.cpp */,
+				566207F1489E4927A356C92C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/math/CRC.cpp */,
+				3F4E83E9DF914C1F8AA5A506 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/resources/BinaryBuffer.cpp */,
+				67EFC9CEDA20431AA24850A7 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/resources/ConfigFile.cpp */,
+				1B9A87A141FC4CA78BDF7CF2 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/resources/LanguageFile.cpp */,
+				9BE701BA0A3344228493BB54 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/system/Platform.cpp */,
+				197A0B7B94BE4D2ABD2D76E6 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/system/String.cpp */,
+				48307AEC80A040CFAD736645 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/HPLMinimal.mm */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		840FAD8412C347078E1F02FF /* Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				3D708007BCA74B59934EDC34 /* Header Files */,
+				FFC8D9656067404FB4F1BFCD /* Source Files */,
+				944EE009C5B342C0B8FA2242 /* Resources */,
+				B5501411CDDB4E64B7685EDF /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/game/Lux.icns */,
+				A28BC92DB92E4B40875A39B0 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/CMakeLists.txt */,
+				F8519FEB44B04281A58FE7FE /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/MainWindow.xib */,
+			);
+			name = Launcher;
+			sourceTree = "<group>";
+		};
+		944EE009C5B342C0B8FA2242 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				484C77F4713448E2827252F3 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/Startup.plist */,
+				5ADCA18A4AC64B0197E6B95C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/launcher_bg.jpg */,
+				2FE2C70A3A54463282B2F0F2 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/CMakeFiles/Launcher.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B9F4F2BA3FD4459BAB810D7E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DEC77D07CBF14DD19B353D4B = {
+			isa = PBXGroup;
+			children = (
+				840FAD8412C347078E1F02FF /* Launcher */,
+				7B5E05252C8648089745F1FA /* HPL2_Minimal */,
+				0EA2750856D04C69A273CDEF /* ALL_BUILD */,
+				40B65F0943494B5AA624C660 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA10DEEB8219486AAE366825 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				575A44167BC942D39546ABE9 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/graphics/Color.h */,
+				89345C95AEA04C0E9F6CAE99 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/graphics/GraphicsTypes.h */,
+				577B0DBCC538403B831FB894 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/math/CRC.h */,
+				354E211C80D94249A079E8C2 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/resources/BinaryBuffer.h */,
+				191908609D434C6CB2C9423B /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/resources/ConfigFile.h */,
+				65CEC6F83EAE4BB0B4E08F2F /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/resources/LanguageFile.h */,
+				D3FBFA52AD2346E892E712AB /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/system/Platform.h */,
+				F05FB7A250CD4AE5BB6E382C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include/system/String.h */,
+				2E587A651E6F48AB8BF500B5 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/HPLMinimal.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		FFC8D9656067404FB4F1BFCD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				718E503512D84A898DEE60ED /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/LauncherAppDelegate.mm */,
+				0EEDEDEEA8F7428D9F18EAC0 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/TabBackground.m */,
+				312E1D4DC7ED4B49963E530F /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/main.m */,
+				3918046BE5B24EFC9080AFE9 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/Qualitychooser.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		571E244BD8324D53BAB86DE6 /* HPL2_Minimal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35959B1FAB843CA977F1776 /* Build configuration list for PBXNativeTarget "HPL2_Minimal" */;
+			buildPhases = (
+				CE6186A4B3544E548C3591CE /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6195F6AE0D845C3A5EC4244 /* PBXTargetDependency */,
+			);
+			name = HPL2_Minimal;
+			productName = HPL2_Minimal;
+			productReference = 555F94F8CC054A18B6428E15 /* HPL2_Minimal */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9BFE53039719421EA633D89A /* Launcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29E69274FD66486ABBD4416B /* Build configuration list for PBXNativeTarget "Launcher" */;
+			buildPhases = (
+				C924045344DF455EAE6D74CA /* Resources */,
+				0A9213F0CA664404AE9327A8 /* Sources */,
+				21BF8675878846ECBEF692B0 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E269A4FD35C4BB6A8D7163C /* PBXTargetDependency */,
+				305EFD27D9724638A5569E7F /* PBXTargetDependency */,
+			);
+			name = Launcher;
+			productName = Launcher;
+			productReference = 4A00B68B3877442BA0D13040 /* Launcher */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F58CA32F15B42459681E5AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1210;
+			};
+			buildConfigurationList = 1B9CC8C3A0DE4444922F6D27 /* Build configuration list for PBXProject "LauncherOSX" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				30FFE184D1734C1D9C639413 /* Debug */,
+				3F89BFBAFA6C4A2FB7C06097 /* Release */,
+				0FDA332B348A43C1A7786873 /* MinSizeRel */,
+				14FD19A93A3348BD93871594 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = DEC77D07CBF14DD19B353D4B;
+			projectDirPath = "../launcher-macosx";
+			projectRoot = "";
+			targets = (
+				A190A83675FF4DE6899245EF /* ALL_BUILD */,
+				571E244BD8324D53BAB86DE6 /* HPL2_Minimal */,
+				9BFE53039719421EA633D89A /* Launcher */,
+				2505335FA96C420BBD05894B /* ZERO_CHECK */,
+				C694BE2ADFB74757BA01F65F /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		002DACEF19D84FA3B62149A4 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher -f /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		21BF8675878846ECBEF692B0 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher -f /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/CMakeScripts/Launcher_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		48F0E09E2EE8411B837C6A45 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A70AAA558F864C05B452FD5C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher -f /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		A9AC78E8C0E84596B40CF40A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E41B00D8F1FE418F882F8EEB /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher -f /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		EA7AC18C2B0C4C4682A468CD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C924045344DF455EAE6D74CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD38BD4824746CBB70E5AF6 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/game/Lux.icns */,
+				504862BBC21D4D6B99F4EC9B /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/MainWindow.xib */,
+				A9BD821A410845629817F2C1 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/Startup.plist */,
+				5E640B69B9D24A44B595D90F /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/launcher_bg.jpg */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A9213F0CA664404AE9327A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA27DD40E22444B2952BEAEC /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/LauncherAppDelegate.mm */,
+				8E070C093E62490B9EECB81D /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/TabBackground.m */,
+				A6FBDDDD4A6243F5A22AFCCE /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/main.m */,
+				DB3D1D6B18974FD5B02FB49B /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/Qualitychooser.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6186A4B3544E548C3591CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA03E3748B684DD78A2673DA /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/graphics/Color.cpp */,
+				76BBA2F27B6D4E8EAA54B6F5 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/graphics/GraphicsTypes.cpp */,
+				B13A57757C7E4392B4904029 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/PlatformMacOSX.mm */,
+				7C8859403BA34DBE91F1B332 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/PlatformSDL.cpp */,
+				E29DF6DF3B2B4DCDAA4EB974 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/PlatformUnix.cpp */,
+				4C480412F9A848E9BC30B3EC /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/tinyXml/tinystr.cpp */,
+				818B3FE74593423C9459E9EE /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/tinyXml/tinyxml.cpp */,
+				E7790EAE3292489680E28752 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/tinyXml/tinyxmlerror.cpp */,
+				F65BA1FCB60D423186874644 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/impl/tinyXml/tinyxmlparser.cpp */,
+				2EF6CC9529DC43A28F123F4C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/math/CRC.cpp */,
+				C573BC014C9049F18A59D4D3 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/resources/BinaryBuffer.cpp */,
+				CEA5B1D2EFAC4C1CB6587FF6 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/resources/ConfigFile.cpp */,
+				1E68156D5F4A4C5F87F85462 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/resources/LanguageFile.cpp */,
+				8B59474506B74F9B924943DD /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/system/Platform.cpp */,
+				6CE7E2682E634433AC190B49 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/sources/system/String.cpp */,
+				544EF031C00544D1AB1D90E4 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx/HPLMinimal.mm */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2637B37F25E6447A92AB5317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2505335FA96C420BBD05894B /* ZERO_CHECK */;
+			targetProxy = 91FCD8E67C4A4BC1AD4DAA2E /* PBXContainerItemProxy */;
+		};
+		2E269A4FD35C4BB6A8D7163C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 571E244BD8324D53BAB86DE6 /* HPL2_Minimal */;
+			targetProxy = 462FDEE336EA4699A5071E68 /* PBXContainerItemProxy */;
+		};
+		305EFD27D9724638A5569E7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2505335FA96C420BBD05894B /* ZERO_CHECK */;
+			targetProxy = 3A0BEE6FA9894F9F9996FC95 /* PBXContainerItemProxy */;
+		};
+		52FF37796A534171B150ED7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 571E244BD8324D53BAB86DE6 /* HPL2_Minimal */;
+			targetProxy = 2B1C10EE66FB4AF4873F3C1B /* PBXContainerItemProxy */;
+		};
+		8F97D13F155B4719820607F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A190A83675FF4DE6899245EF /* ALL_BUILD */;
+			targetProxy = D80FF4DB6B9344FDB8B73A68 /* PBXContainerItemProxy */;
+		};
+		A6195F6AE0D845C3A5EC4244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2505335FA96C420BBD05894B /* ZERO_CHECK */;
+			targetProxy = A25CBEAF2E4F48BB98EA0578 /* PBXContainerItemProxy */;
+		};
+		B4A53F1F964A4DABA2E31B60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BFE53039719421EA633D89A /* Launcher */;
+			targetProxy = 69DEFB088BBD488192C05923 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06083BB6C88D437AA4D28396 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0CB9F60E23B840378F78584D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HPL_MINIMAL,USE_SDL2,USERDIR_RESOURCES);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher,"/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx",/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/../dependencies/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing     -DNDEBUG   -Wno-switch -Wno-reorder -Wno-unused-variable -Wno-unused-function";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HPL2_Minimal;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		23EA4CAD85C3414E929AB3DE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/build;
+			};
+			name = MinSizeRel;
+		};
+		4129C0A177A9467B92F4E57E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		556EBDA10B764403BCB80162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/build;
+			};
+			name = Release;
+		};
+		5AFFDF29CD4F4695BCDB6654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5EC6163BF6404D50939AA28B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6EE408F506DB4004AC40CA8E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		71468C1286DD467BAAE373EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		71C0EAB5C8BE499C95610EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		74D5EE22D4934CE680ED7B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HPL_MINIMAL,USE_SDL2,USERDIR_RESOURCES);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher,"/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx",/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/../dependencies/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing      -Wno-switch -Wno-reorder -Wno-unused-variable -Wno-unused-function";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HPL2_Minimal;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7612C14EDFD7437DB61C9606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HPL_MINIMAL,USE_SDL2,USERDIR_RESOURCES);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher,"/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx",/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/../dependencies/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing     -DNDEBUG   -Wno-switch -Wno-reorder -Wno-unused-variable -Wno-unused-function";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HPL2_Minimal;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		992A9264FD1745DE8498BBF9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A94261DDBD8C4413A4CA3540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/build;
+			};
+			name = Debug;
+		};
+		AAE4782996E340D5A9E74454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B800A42D9CC04387B84D3FD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HPL_MINIMAL,USE_SDL2,USERDIR_RESOURCES);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher,"/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx",/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/../dependencies/include);
+				INFOPLIST_FILE = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/CMakeFiles/Launcher.dir/Info.plist;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = " /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/../dependencies/lib/macosx/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/../dependencies/lib/macosx";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " -fno-strict-aliasing      -Wno-switch -Wno-reorder -Wno-unused-variable -Wno-unused-function";
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing      -Wno-switch -Wno-reorder -Wno-unused-variable -Wno-unused-function";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa -framework OpenGL -framework OpenAL /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libSDL2.dylib /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/Debug/libHPL2_Minimal.a -lz";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Launcher;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C57984411B4C4AD39A08ADD7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/build;
+			};
+			name = RelWithDebInfo;
+		};
+		CD2F511E99584CAD8119468A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D5988CE25BBB48D09C91EFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DD50EF7BC9D04542963FDD50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HPL_MINIMAL,USE_SDL2,USERDIR_RESOURCES);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher,"/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx",/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/../dependencies/include);
+				INFOPLIST_FILE = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/CMakeFiles/Launcher.dir/Info.plist;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = " /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/../dependencies/lib/macosx/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/../dependencies/lib/macosx";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " -fno-strict-aliasing     -DNDEBUG   -Wno-switch -Wno-reorder -Wno-unused-variable -Wno-unused-function";
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing     -DNDEBUG   -Wno-switch -Wno-reorder -Wno-unused-variable -Wno-unused-function";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa -framework OpenGL -framework OpenAL /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libSDL2.dylib /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/Release/libHPL2_Minimal.a -lz";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Launcher;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E102E639F4F04609A3F3A85E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HPL_MINIMAL,USE_SDL2,USERDIR_RESOURCES);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher,"/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx",/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/../dependencies/include);
+				INFOPLIST_FILE = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/CMakeFiles/Launcher.dir/Info.plist;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = " /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/../dependencies/lib/macosx/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/../dependencies/lib/macosx";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " -fno-strict-aliasing        -DNDEBUG   -Wno-switch -Wno-reorder -Wno-unused-variable -Wno-unused-function";
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing        -DNDEBUG   -Wno-switch -Wno-reorder -Wno-unused-variable -Wno-unused-function";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa -framework OpenGL -framework OpenAL /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libSDL2.dylib /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/RelWithDebInfo/libHPL2_Minimal.a -lz";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Launcher;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E97CB8C94589454CA14F1B65 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HPL_MINIMAL,USE_SDL2,USERDIR_RESOURCES);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher,"/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx",/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/../dependencies/include);
+				INFOPLIST_FILE = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/CMakeFiles/Launcher.dir/Info.plist;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = " /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/../dependencies/lib/macosx/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/../dependencies/lib/macosx";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " -fno-strict-aliasing     -DNDEBUG   -Wno-switch -Wno-reorder -Wno-unused-variable -Wno-unused-function";
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing     -DNDEBUG   -Wno-switch -Wno-reorder -Wno-unused-variable -Wno-unused-function";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa -framework OpenGL -framework OpenAL /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libSDL2.dylib /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher/MinSizeRel/libHPL2_Minimal.a -lz";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Launcher;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F21DFACAC8194C5BADCB7DF7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HPL_MINIMAL,USE_SDL2,USERDIR_RESOURCES);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher,"/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher-macosx",/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/include,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/../dependencies/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing        -DNDEBUG   -Wno-switch -Wno-reorder -Wno-unused-variable -Wno-unused-function";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HPL2_Minimal;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F3285A63B4C148E3B6A3AE4B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/amnesia/src/launcher;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B9CC8C3A0DE4444922F6D27 /* Build configuration list for PBXProject "LauncherOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94261DDBD8C4413A4CA3540 /* Debug */,
+				556EBDA10B764403BCB80162 /* Release */,
+				23EA4CAD85C3414E929AB3DE /* MinSizeRel */,
+				C57984411B4C4AD39A08ADD7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		29E69274FD66486ABBD4416B /* Build configuration list for PBXNativeTarget "Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B800A42D9CC04387B84D3FD8 /* Debug */,
+				DD50EF7BC9D04542963FDD50 /* Release */,
+				E97CB8C94589454CA14F1B65 /* MinSizeRel */,
+				E102E639F4F04609A3F3A85E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		432FB5BBA5F842C596933A82 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE4782996E340D5A9E74454 /* Debug */,
+				71468C1286DD467BAAE373EF /* Release */,
+				6EE408F506DB4004AC40CA8E /* MinSizeRel */,
+				06083BB6C88D437AA4D28396 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		93AD425B3FE14DBC916443B1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5988CE25BBB48D09C91EFC5 /* Debug */,
+				CD2F511E99584CAD8119468A /* Release */,
+				F3285A63B4C148E3B6A3AE4B /* MinSizeRel */,
+				4129C0A177A9467B92F4E57E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C35959B1FAB843CA977F1776 /* Build configuration list for PBXNativeTarget "HPL2_Minimal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74D5EE22D4934CE680ED7B5E /* Debug */,
+				7612C14EDFD7437DB61C9606 /* Release */,
+				0CB9F60E23B840378F78584D /* MinSizeRel */,
+				F21DFACAC8194C5BADCB7DF7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E6AD0C9688F94034A236B6D0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C0EAB5C8BE499C95610EAE /* Debug */,
+				5AFFDF29CD4F4695BCDB6654 /* Release */,
+				992A9264FD1745DE8498BBF9 /* MinSizeRel */,
+				5EC6163BF6404D50939AA28B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F58CA32F15B42459681E5AE /* Project object */;
+}
