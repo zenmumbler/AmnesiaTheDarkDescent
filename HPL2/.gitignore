@@ -1,0 +1,7 @@
+dependencies
+*.cmake
+CMakeScripts
+CMakeFiles
+CMakeCache.txt
+xcuserdata
+
