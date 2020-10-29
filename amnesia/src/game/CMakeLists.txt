@@ -86,24 +86,24 @@ add_definitions(
     -DLINUX
 )
 ENDIF()
-add_executable(AmnesiaDemo MACOSX_BUNDLE EXCLUDE_FROM_ALL
-    ${all_sources}
-)
-target_link_libraries(AmnesiaDemo HPL2)
-set_target_properties(AmnesiaDemo PROPERTIES
-	COMPILE_DEFINITIONS "${demo_compile_defs}"
-    MACOSX_BUNDLE_INFO_PLIST "${CMAKE_CURRENT_SOURCE_DIR}/Game-Info.plist"
-	MACOSX_BUNDLE_ICON_FILE "Lux.icns"
-	MACOSX_BUNDLE_BUNDLE_VERSION ${VERSION}
-	MACOSX_BUNDLE_SHORT_VERSION_STRING "${VERSION}-demo"
-	MACOSX_BUNDLE_GUI_IDENTIFIER "com.frictionalgames.AmnesiaDemo"
-    MACOSX_BUNDLE_BUNDLE_NAME "Amnesia: The Dark Descent"
-)
+# add_executable(AmnesiaDemo MACOSX_BUNDLE EXCLUDE_FROM_ALL
+#     ${all_sources}
+# )
+# target_link_libraries(AmnesiaDemo HPL2)
+# set_target_properties(AmnesiaDemo PROPERTIES
+# 	COMPILE_DEFINITIONS "${demo_compile_defs}"
+#     MACOSX_BUNDLE_INFO_PLIST "${CMAKE_CURRENT_SOURCE_DIR}/Game-Info.plist"
+# 	MACOSX_BUNDLE_ICON_FILE "Lux.icns"
+# 	MACOSX_BUNDLE_BUNDLE_VERSION ${VERSION}
+# 	MACOSX_BUNDLE_SHORT_VERSION_STRING "${VERSION}-demo"
+# 	MACOSX_BUNDLE_GUI_IDENTIFIER "com.frictionalgames.AmnesiaDemo"
+#     MACOSX_BUNDLE_BUNDLE_NAME "Amnesia: The Dark Descent"
+# )
 
 IF(APPLE)
 	PostBuildMacBundle(Amnesia "${HPL2_FRAMEWORKS}" "${HPL2_LIBRARIES}")
-	PostBuildMacBundle(AmnesiaDemo "${HPL2_FRAMEWORKS}" "${HPL2_LIBRARIES}")
 #	PostBuildMacBundle(AmnesiaSteam "${HPL2_FRAMEWORKS}" "${HPL2_LIBRARIES};libsteam_api.dylib")
+#	PostBuildMacBundle(AmnesiaDemo "${HPL2_FRAMEWORKS}" "${HPL2_LIBRARIES}")
 	install(TARGETS Amnesia
 		RUNTIME DESTINATION "${CMAKE_CURRENT_SOURCE_DIR}/../../redist"
 		BUNDLE DESTINATION "${CMAKE_CURRENT_SOURCE_DIR}/../../redist"
