@@ -1,0 +1,1570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		32E1487F1135465289CA502D /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 600C24BE9F114683A0A94FAA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				7E10989C3BD143E2980D3C6D /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		79A4FD9A882E4023B8861ED4 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A947071992AE49FFAA78335F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				B0F9E8CA2EE34E74B3EAD069 /* CMake Rules */,
+			);
+			dependencies = (
+				36875D4139F64BE1A1BCCFC0 /* PBXTargetDependency */,
+				696643044D6545BC9D9F5F18 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		021B57AC4F344E2FBE719D72 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_SourceManager.cpp */ = {isa = PBXBuildFile; fileRef = C5EEE128DE9143AEB032E5FE /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_SourceManager.cpp */; };
+		04494506D6F642CAAD86531E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/tests/Simple/main.cpp */ = {isa = PBXBuildFile; fileRef = B92ADD96AECC498AB1E5B871 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/tests/Simple/main.cpp */; };
+		04836D47343D4B55BD8B5790 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_EFX.h */ = {isa = PBXBuildFile; fileRef = 92015ADB8F4E43D78F318D9E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_EFX.h */; };
+		04A4BDFE0B2B48AF9AFCD62A /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_WAVSample.cpp */ = {isa = PBXBuildFile; fileRef = B0CCAAB3ED774D67ABE5BA73 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_WAVSample.cpp */; };
+		0D93CC6D4625447CBEA97FDD /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_OggStream.cpp */ = {isa = PBXBuildFile; fileRef = 29DA5FEE77744F95A59AB763 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_OggStream.cpp */; };
+		1A4E632148424A0491A7EBF1 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Types.cpp */ = {isa = PBXBuildFile; fileRef = 9F76A42EADC5425AB732881C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Types.cpp */; };
+		1E9E08B7A2904D66A92B96CD /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_AudioData.cpp */ = {isa = PBXBuildFile; fileRef = 32499352D9694D1588345B33 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_AudioData.cpp */; };
+		246F8B68C08944A08B1AFAA0 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Buffer.cpp */ = {isa = PBXBuildFile; fileRef = E4ECF6F139AB468CAF5AFEC4 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Buffer.cpp */; };
+		271BBED82B1846CE84DDEC5A /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_LoggerObject.h */ = {isa = PBXBuildFile; fileRef = 752A14E875FD4454B815C4A0 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_LoggerObject.h */; };
+		29AD753335F04F92AC9F84AF /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_EFX.cpp */ = {isa = PBXBuildFile; fileRef = 9B70E7634A10409D8542863C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_EFX.cpp */; };
+		31B750739D164AD7A580BDFE /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Types.h */ = {isa = PBXBuildFile; fileRef = 825305507ACA4919AA7F8870 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Types.h */; };
+		321D3653CD2A44C9A579D37B /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Funcs.h */ = {isa = PBXBuildFile; fileRef = 69641925A3454A7BB785E474 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Funcs.h */; };
+		34669B47E8E94264AF9304BD /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Device.cpp */ = {isa = PBXBuildFile; fileRef = B79054E0766A4362BB87F916 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Device.cpp */; };
+		346F78632CF94B119563086D /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Stream.h */ = {isa = PBXBuildFile; fileRef = 6B604778611243BEAEF5E7A8 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Stream.h */; };
+		355B7DA9E98141548D705EAB /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_CustomStream.h */ = {isa = PBXBuildFile; fileRef = 06B7EB780C8F46029156C7F3 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_CustomStream.h */; };
+		3B2A0673879842B8859E60D9 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/tests/Playlist/main.cpp */ = {isa = PBXBuildFile; fileRef = 4C24D30BCF744703AA0351FC /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/tests/Playlist/main.cpp */; };
+		3BECDDF873AD40E3BBB9F5BB /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Sample.h */ = {isa = PBXBuildFile; fileRef = 1209D9DA39C84277B97825FF /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Sample.h */; };
+		3C800A62EEB34939869E81DD /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Source.h */ = {isa = PBXBuildFile; fileRef = 43B817ACD74546D78909A0C8 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Source.h */; };
+		3CA2895DDBCC4684A73461A4 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Effect.cpp */ = {isa = PBXBuildFile; fileRef = 532FBA04154A4611B36DFF00 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Effect.cpp */; };
+		3E909AB5F42C4BA594C7E0E0 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 82F99439360E44C79372C031 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/CMakeLists.txt */; };
+		41FC3415792643E38E421260 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_EFXManager.h */ = {isa = PBXBuildFile; fileRef = 5AFE73807C2946BE97E6D306 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_EFXManager.h */; };
+		423DE859B2244AD183AE7719 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_SourceManager.h */ = {isa = PBXBuildFile; fileRef = 70F527F209184B03BC2CE16B /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_SourceManager.h */; };
+		47868301BF3B49D99FC3D361 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_LoggerObject.cpp */ = {isa = PBXBuildFile; fileRef = 6343306E1C61446DA820FA58 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_LoggerObject.cpp */; };
+		48F95A0098FF4BE3B9C4906E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Init.cpp */ = {isa = PBXBuildFile; fileRef = 01340FD1C3D64995AAF9D7FA /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Init.cpp */; };
+		506E87872D434FDBA5FB66C3 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Playback.cpp */ = {isa = PBXBuildFile; fileRef = D653D318D792402B9C9EA87D /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Playback.cpp */; };
+		50A3C2BA914448CB84282DB6 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Init.h */ = {isa = PBXBuildFile; fileRef = 3335EB19B665489FB773715E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Init.h */; };
+		54AC8C6187754E508B38AB44 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/tests/CustomStream/main.cpp */ = {isa = PBXBuildFile; fileRef = 55F303FEAFAA437EA83D4A59 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/tests/CustomStream/main.cpp */; };
+		5F8FDD1FAE0449A1A1F96938 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/tests/PlaySound/main.cpp */ = {isa = PBXBuildFile; fileRef = 2CD3F05F94A3440CBF17C3CC /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/tests/PlaySound/main.cpp */; };
+		660876D7D6E245D58C648A38 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_EFXManager.cpp */ = {isa = PBXBuildFile; fileRef = 5223DFC9C769495A91958340 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_EFXManager.cpp */; };
+		7125BDB58EF5490A83475E9A /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Loaders.h */ = {isa = PBXBuildFile; fileRef = 2C3F85B71E784816955770BE /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Loaders.h */; };
+		73EF7D36ECDD42DE8079D8B2 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E6D957FA068B4DF6B36AC874 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/CMakeLists.txt */; };
+		77253D1BE0214F8FBAC957A5 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Effect_Reverb.cpp */ = {isa = PBXBuildFile; fileRef = FEB96496DAC942B38DEC73CA /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Effect_Reverb.cpp */; };
+		772B26CA4A254586B0BA22E6 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_OggStream.h */ = {isa = PBXBuildFile; fileRef = B5728960875D484A8A94E82E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_OggStream.h */; };
+		7A0C2AEE3AEF4B2C96ADBBD2 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_LowLevelObject.h */ = {isa = PBXBuildFile; fileRef = B7AD9BB6D6A741139B65D849 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_LowLevelObject.h */; };
+		7EB3C1CD1A31442FB0D1F046 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Effect.h */ = {isa = PBXBuildFile; fileRef = C9B0EB732A5A4504BE86D9FA /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Effect.h */; };
+		7F93BDD5CEF84C45BC0612D8 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Source.cpp */ = {isa = PBXBuildFile; fileRef = BCA11AE906714EE4B3920987 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Source.cpp */; };
+		811B6F97EBF84042A5B15454 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Filter.cpp */ = {isa = PBXBuildFile; fileRef = 502CE5EF56484ED1810ED18E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Filter.cpp */; };
+		816D2F18EA5D46CD98651570 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Sample.cpp */ = {isa = PBXBuildFile; fileRef = 8C7AF1523B5847609F2EFF14 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Sample.cpp */; };
+		81AEA3276F574AD48A55C12E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_EffectSlot.cpp */ = {isa = PBXBuildFile; fileRef = 2DEA0101740C4DF5A31587A8 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_EffectSlot.cpp */; };
+		904CBD7903774C389D56E95D /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Device.h */ = {isa = PBXBuildFile; fileRef = 9B6779DF4458440C8B9F9EBA /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Device.h */; };
+		9A184EB81FF74C3E882ADCD8 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Buffer.h */ = {isa = PBXBuildFile; fileRef = 8CECDF3AFAC0493F895DD328 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Buffer.h */; };
+		9A5B00B96FB84828873E6C82 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 68FDCFBE8BBC483EA6688145 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/CMakeLists.txt */; };
+		A14C43D000F342F3A1282D3F /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_AudioData.h */ = {isa = PBXBuildFile; fileRef = 32D278AACE5D46BD9D7400F6 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_AudioData.h */; };
+		A6403AC3C43F48C4AD1467ED /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_WAVSample.h */ = {isa = PBXBuildFile; fileRef = 04B3429A82374DAE8852ADC2 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_WAVSample.h */; };
+		A916B9A02BE445A1ACBFFA1F /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Helper.cpp */ = {isa = PBXBuildFile; fileRef = 4A811FF057E24D519AF330D6 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Helper.cpp */; };
+		AC44B4A57184407ABD99804D /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = FEFDB998A41242A396E12B06 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/CMakeLists.txt */; };
+		C3E43A9EB6174501BC46595F /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Helper.h */ = {isa = PBXBuildFile; fileRef = 0B716E3F5F234535B1A3F230 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Helper.h */; };
+		D3B9C5D0CE7B4628913DD217 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Effect_Reverb.h */ = {isa = PBXBuildFile; fileRef = 8658996837EA482196D78F47 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Effect_Reverb.h */; };
+		D8451256029C4B3294B95B92 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_EffectSlot.h */ = {isa = PBXBuildFile; fileRef = 2EDA00FAA0CE4C8F9795B82B /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_EffectSlot.h */; };
+		D94A5E15CC1E45458ED25918 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_OggSample.h */ = {isa = PBXBuildFile; fileRef = 7E302BE63C4542B8B6D1F493 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_OggSample.h */; };
+		DC823CEFAFB1410EABA8B9D5 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_CustomStream.cpp */ = {isa = PBXBuildFile; fileRef = 8C62A39BA9AC41B8A0159F7C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_CustomStream.cpp */; };
+		E58F0B725A1C4E96BA51E3D4 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Stream.cpp */ = {isa = PBXBuildFile; fileRef = 58A897B8DECD4B3CAE24E330 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Stream.cpp */; };
+		F41224D8E93B4342AE23AB94 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_OggSample.cpp */ = {isa = PBXBuildFile; fileRef = CC4DEE27D4F64837B2ED1C3E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_OggSample.cpp */; };
+		F7187C9AFF0F431189CA436A /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 79FBC3F982C3457FB84566D5 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/CMakeLists.txt */; };
+		FAB451E2BECC4B85AD8CFE4E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Playback.h */ = {isa = PBXBuildFile; fileRef = 28EF7F1745714B75872F331C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Playback.h */; };
+		FBF92AA53ADE4942A7D2D90F /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Loaders.cpp */ = {isa = PBXBuildFile; fileRef = 70B4098FB2CA4229B9D525E1 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Loaders.cpp */; };
+		FD50507CC1814A85837E2CEF /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Filter.h */ = {isa = PBXBuildFile; fileRef = D3E8334D6A0F44CAB735570E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Filter.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		09FCACA761D8456380DA270F /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		16C3AFE1C6EF47AA88417CAC /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		8B2BE537A96A46C89687C15F /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		C44D79BEF6034A0D820D8418 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		023294C4EF3740F4A14B8E82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F9FD6DEB72C438393223A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2A2EE9A7DCB436FAC49E4F0;
+			remoteInfo = OALWrapper;
+		};
+		1F82B1F9315C4B34B2C7A9DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F9FD6DEB72C438393223A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2A2EE9A7DCB436FAC49E4F0;
+			remoteInfo = OALWrapper;
+		};
+		39CC70248DC84D2D9A77B7E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F9FD6DEB72C438393223A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2A2EE9A7DCB436FAC49E4F0;
+			remoteInfo = OALWrapper;
+		};
+		458AE3E00BF347F894C3DB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F9FD6DEB72C438393223A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2A2EE9A7DCB436FAC49E4F0;
+			remoteInfo = OALWrapper;
+		};
+		4D18C861FABD4B349AD00B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F9FD6DEB72C438393223A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32E1487F1135465289CA502D;
+			remoteInfo = ZERO_CHECK;
+		};
+		8C0BE9D419AE4248868DFBEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F9FD6DEB72C438393223A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32E1487F1135465289CA502D;
+			remoteInfo = ZERO_CHECK;
+		};
+		96C81ABB45E84E82B81C2BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F9FD6DEB72C438393223A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32E1487F1135465289CA502D;
+			remoteInfo = ZERO_CHECK;
+		};
+		B6106E81B2544061953D9710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F9FD6DEB72C438393223A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32E1487F1135465289CA502D;
+			remoteInfo = ZERO_CHECK;
+		};
+		BA20C61A43F347F792212DD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F9FD6DEB72C438393223A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32E1487F1135465289CA502D;
+			remoteInfo = ZERO_CHECK;
+		};
+		CA4D9B034CB64F1A9A1FF0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F9FD6DEB72C438393223A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32E1487F1135465289CA502D;
+			remoteInfo = ZERO_CHECK;
+		};
+		F13D9B61111142D78BF5F63B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F9FD6DEB72C438393223A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2A2EE9A7DCB436FAC49E4F0;
+			remoteInfo = OALWrapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01340FD1C3D64995AAF9D7FA /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Init.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OAL_Init.cpp; path = sources/OAL_Init.cpp; sourceTree = SOURCE_ROOT; };
+		04B3429A82374DAE8852ADC2 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_WAVSample.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_WAVSample.h; path = include/OALWrapper/OAL_WAVSample.h; sourceTree = SOURCE_ROOT; };
+		06B7EB780C8F46029156C7F3 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_CustomStream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_CustomStream.h; path = include/OALWrapper/OAL_CustomStream.h; sourceTree = SOURCE_ROOT; };
+		0B716E3F5F234535B1A3F230 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Helper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_Helper.h; path = include/OALWrapper/OAL_Helper.h; sourceTree = SOURCE_ROOT; };
+		1209D9DA39C84277B97825FF /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Sample.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_Sample.h; path = include/OALWrapper/OAL_Sample.h; sourceTree = SOURCE_ROOT; };
+		28EF7F1745714B75872F331C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Playback.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_Playback.h; path = include/OALWrapper/OAL_Playback.h; sourceTree = SOURCE_ROOT; };
+		29DA5FEE77744F95A59AB763 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_OggStream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OAL_OggStream.cpp; path = sources/OAL_OggStream.cpp; sourceTree = SOURCE_ROOT; };
+		2C3F85B71E784816955770BE /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Loaders.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_Loaders.h; path = include/OALWrapper/OAL_Loaders.h; sourceTree = SOURCE_ROOT; };
+		2CD3F05F94A3440CBF17C3CC /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/tests/PlaySound/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = tests/PlaySound/main.cpp; sourceTree = SOURCE_ROOT; };
+		2DEA0101740C4DF5A31587A8 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_EffectSlot.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OAL_EffectSlot.cpp; path = sources/OAL_EffectSlot.cpp; sourceTree = SOURCE_ROOT; };
+		2EDA00FAA0CE4C8F9795B82B /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_EffectSlot.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_EffectSlot.h; path = include/OALWrapper/OAL_EffectSlot.h; sourceTree = SOURCE_ROOT; };
+		32499352D9694D1588345B33 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_AudioData.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OAL_AudioData.cpp; path = sources/OAL_AudioData.cpp; sourceTree = SOURCE_ROOT; };
+		32D278AACE5D46BD9D7400F6 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_AudioData.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_AudioData.h; path = include/OALWrapper/OAL_AudioData.h; sourceTree = SOURCE_ROOT; };
+		3335EB19B665489FB773715E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Init.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_Init.h; path = include/OALWrapper/OAL_Init.h; sourceTree = SOURCE_ROOT; };
+		43B817ACD74546D78909A0C8 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Source.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_Source.h; path = include/OALWrapper/OAL_Source.h; sourceTree = SOURCE_ROOT; };
+		488F31A5CAC141B588949512 /* SimpleTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SimpleTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A811FF057E24D519AF330D6 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Helper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OAL_Helper.cpp; path = sources/OAL_Helper.cpp; sourceTree = SOURCE_ROOT; };
+		4C24D30BCF744703AA0351FC /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/tests/Playlist/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = tests/Playlist/main.cpp; sourceTree = SOURCE_ROOT; };
+		502CE5EF56484ED1810ED18E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Filter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OAL_Filter.cpp; path = sources/OAL_Filter.cpp; sourceTree = SOURCE_ROOT; };
+		5223DFC9C769495A91958340 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_EFXManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OAL_EFXManager.cpp; path = sources/OAL_EFXManager.cpp; sourceTree = SOURCE_ROOT; };
+		532FBA04154A4611B36DFF00 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Effect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OAL_Effect.cpp; path = sources/OAL_Effect.cpp; sourceTree = SOURCE_ROOT; };
+		55F303FEAFAA437EA83D4A59 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/tests/CustomStream/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = tests/CustomStream/main.cpp; sourceTree = SOURCE_ROOT; };
+		58A897B8DECD4B3CAE24E330 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Stream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OAL_Stream.cpp; path = sources/OAL_Stream.cpp; sourceTree = SOURCE_ROOT; };
+		5AFE73807C2946BE97E6D306 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_EFXManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_EFXManager.h; path = include/OALWrapper/OAL_EFXManager.h; sourceTree = SOURCE_ROOT; };
+		6343306E1C61446DA820FA58 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_LoggerObject.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OAL_LoggerObject.cpp; path = sources/OAL_LoggerObject.cpp; sourceTree = SOURCE_ROOT; };
+		68FDCFBE8BBC483EA6688145 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		69641925A3454A7BB785E474 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Funcs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_Funcs.h; path = include/OALWrapper/OAL_Funcs.h; sourceTree = SOURCE_ROOT; };
+		69AD052EC63746238F4782F6 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6B604778611243BEAEF5E7A8 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Stream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_Stream.h; path = include/OALWrapper/OAL_Stream.h; sourceTree = SOURCE_ROOT; };
+		70B4098FB2CA4229B9D525E1 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Loaders.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OAL_Loaders.cpp; path = sources/OAL_Loaders.cpp; sourceTree = SOURCE_ROOT; };
+		70F527F209184B03BC2CE16B /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_SourceManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_SourceManager.h; path = include/OALWrapper/OAL_SourceManager.h; sourceTree = SOURCE_ROOT; };
+		752A14E875FD4454B815C4A0 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_LoggerObject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_LoggerObject.h; path = include/OALWrapper/OAL_LoggerObject.h; sourceTree = SOURCE_ROOT; };
+		79FBC3F982C3457FB84566D5 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7E302BE63C4542B8B6D1F493 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_OggSample.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_OggSample.h; path = include/OALWrapper/OAL_OggSample.h; sourceTree = SOURCE_ROOT; };
+		825305507ACA4919AA7F8870 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_Types.h; path = include/OALWrapper/OAL_Types.h; sourceTree = SOURCE_ROOT; };
+		82F99439360E44C79372C031 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8658996837EA482196D78F47 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Effect_Reverb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_Effect_Reverb.h; path = include/OALWrapper/OAL_Effect_Reverb.h; sourceTree = SOURCE_ROOT; };
+		8C62A39BA9AC41B8A0159F7C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_CustomStream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OAL_CustomStream.cpp; path = sources/OAL_CustomStream.cpp; sourceTree = SOURCE_ROOT; };
+		8C7AF1523B5847609F2EFF14 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Sample.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OAL_Sample.cpp; path = sources/OAL_Sample.cpp; sourceTree = SOURCE_ROOT; };
+		8CECDF3AFAC0493F895DD328 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Buffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_Buffer.h; path = include/OALWrapper/OAL_Buffer.h; sourceTree = SOURCE_ROOT; };
+		92015ADB8F4E43D78F318D9E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_EFX.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_EFX.h; path = include/OALWrapper/OAL_EFX.h; sourceTree = SOURCE_ROOT; };
+		9B6779DF4458440C8B9F9EBA /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Device.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_Device.h; path = include/OALWrapper/OAL_Device.h; sourceTree = SOURCE_ROOT; };
+		9B70E7634A10409D8542863C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_EFX.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OAL_EFX.cpp; path = sources/OAL_EFX.cpp; sourceTree = SOURCE_ROOT; };
+		9F76A42EADC5425AB732881C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Types.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OAL_Types.cpp; path = sources/OAL_Types.cpp; sourceTree = SOURCE_ROOT; };
+		B0CCAAB3ED774D67ABE5BA73 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_WAVSample.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OAL_WAVSample.cpp; path = sources/OAL_WAVSample.cpp; sourceTree = SOURCE_ROOT; };
+		B5728960875D484A8A94E82E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_OggStream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_OggStream.h; path = include/OALWrapper/OAL_OggStream.h; sourceTree = SOURCE_ROOT; };
+		B79054E0766A4362BB87F916 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Device.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OAL_Device.cpp; path = sources/OAL_Device.cpp; sourceTree = SOURCE_ROOT; };
+		B7AD9BB6D6A741139B65D849 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_LowLevelObject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_LowLevelObject.h; path = include/OALWrapper/OAL_LowLevelObject.h; sourceTree = SOURCE_ROOT; };
+		B92ADD96AECC498AB1E5B871 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/tests/Simple/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = tests/Simple/main.cpp; sourceTree = SOURCE_ROOT; };
+		BCA11AE906714EE4B3920987 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Source.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OAL_Source.cpp; path = sources/OAL_Source.cpp; sourceTree = SOURCE_ROOT; };
+		BF63B521E4054C0D882037E5 /* OALWrapper */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libOALWrapper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D12410ABE64F2788B71F71 /* Playlist */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Playlist; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5EEE128DE9143AEB032E5FE /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_SourceManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OAL_SourceManager.cpp; path = sources/OAL_SourceManager.cpp; sourceTree = SOURCE_ROOT; };
+		C9B0EB732A5A4504BE86D9FA /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Effect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_Effect.h; path = include/OALWrapper/OAL_Effect.h; sourceTree = SOURCE_ROOT; };
+		CC4DEE27D4F64837B2ED1C3E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_OggSample.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OAL_OggSample.cpp; path = sources/OAL_OggSample.cpp; sourceTree = SOURCE_ROOT; };
+		D2E9746481FD45A48CC1892D /* CustomStream */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = CustomStream; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E8334D6A0F44CAB735570E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Filter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OAL_Filter.h; path = include/OALWrapper/OAL_Filter.h; sourceTree = SOURCE_ROOT; };
+		D653D318D792402B9C9EA87D /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Playback.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OAL_Playback.cpp; path = sources/OAL_Playback.cpp; sourceTree = SOURCE_ROOT; };
+		E4ECF6F139AB468CAF5AFEC4 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Buffer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OAL_Buffer.cpp; path = sources/OAL_Buffer.cpp; sourceTree = SOURCE_ROOT; };
+		E6D957FA068B4DF6B36AC874 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EDA6850A18E24B93BF56A6EE /* PlaySound */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = PlaySound; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB96496DAC942B38DEC73CA /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Effect_Reverb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OAL_Effect_Reverb.cpp; path = sources/OAL_Effect_Reverb.cpp; sourceTree = SOURCE_ROOT; };
+		FEFDB998A41242A396E12B06 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		02F06CD982C347608398BD27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2E9746481FD45A48CC1892D /* CustomStream */,
+				BF63B521E4054C0D882037E5 /* OALWrapper */,
+				EDA6850A18E24B93BF56A6EE /* PlaySound */,
+				C4D12410ABE64F2788B71F71 /* Playlist */,
+				488F31A5CAC141B588949512 /* SimpleTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E44BD02EC7C4F3DA2A72ACD /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				32D278AACE5D46BD9D7400F6 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_AudioData.h */,
+				8CECDF3AFAC0493F895DD328 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Buffer.h */,
+				06B7EB780C8F46029156C7F3 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_CustomStream.h */,
+				9B6779DF4458440C8B9F9EBA /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Device.h */,
+				92015ADB8F4E43D78F318D9E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_EFX.h */,
+				5AFE73807C2946BE97E6D306 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_EFXManager.h */,
+				C9B0EB732A5A4504BE86D9FA /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Effect.h */,
+				2EDA00FAA0CE4C8F9795B82B /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_EffectSlot.h */,
+				8658996837EA482196D78F47 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Effect_Reverb.h */,
+				D3E8334D6A0F44CAB735570E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Filter.h */,
+				69641925A3454A7BB785E474 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Funcs.h */,
+				0B716E3F5F234535B1A3F230 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Helper.h */,
+				3335EB19B665489FB773715E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Init.h */,
+				2C3F85B71E784816955770BE /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Loaders.h */,
+				752A14E875FD4454B815C4A0 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_LoggerObject.h */,
+				B7AD9BB6D6A741139B65D849 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_LowLevelObject.h */,
+				7E302BE63C4542B8B6D1F493 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_OggSample.h */,
+				B5728960875D484A8A94E82E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_OggStream.h */,
+				28EF7F1745714B75872F331C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Playback.h */,
+				1209D9DA39C84277B97825FF /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Sample.h */,
+				43B817ACD74546D78909A0C8 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Source.h */,
+				70F527F209184B03BC2CE16B /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_SourceManager.h */,
+				6B604778611243BEAEF5E7A8 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Stream.h */,
+				825305507ACA4919AA7F8870 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_Types.h */,
+				04B3429A82374DAE8852ADC2 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include/OALWrapper/OAL_WAVSample.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		31AE9325745C4AAA827C5F3D = {
+			isa = PBXGroup;
+			children = (
+				9ECB655E628D4BDBA53C2360 /* CustomStream */,
+				D6C9FDDA381A4C85BE42ABA0 /* PlaySound */,
+				7E3E95AF04E0423E81AA71D8 /* Playlist */,
+				36E0F82A15544102B0530A91 /* SimpleTest */,
+				3E9449D5633746E49E74E5B8 /* OALWrapper */,
+				BE343F4C725146FBB2F7FE24 /* ALL_BUILD */,
+				02F06CD982C347608398BD27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36E0F82A15544102B0530A91 /* SimpleTest */ = {
+			isa = PBXGroup;
+			children = (
+				8EB9639751A24362975F87E9 /* Source Files */,
+				68FDCFBE8BBC483EA6688145 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/CMakeLists.txt */,
+			);
+			name = SimpleTest;
+			sourceTree = "<group>";
+		};
+		3E9449D5633746E49E74E5B8 /* OALWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				F86A7C4AD23E4D5F98F5004C /* Source Files */,
+				1E44BD02EC7C4F3DA2A72ACD /* Header Files */,
+				E6D957FA068B4DF6B36AC874 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/CMakeLists.txt */,
+			);
+			name = OALWrapper;
+			sourceTree = "<group>";
+		};
+		416FC8C40395459EA1FD1204 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		6C312F40174146B18DB9EDD5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C24D30BCF744703AA0351FC /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/tests/Playlist/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7E3E95AF04E0423E81AA71D8 /* Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				6C312F40174146B18DB9EDD5 /* Source Files */,
+				82F99439360E44C79372C031 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/CMakeLists.txt */,
+			);
+			name = Playlist;
+			sourceTree = "<group>";
+		};
+		835DBF9352D545C4A99F4561 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				55F303FEAFAA437EA83D4A59 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/tests/CustomStream/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8EB9639751A24362975F87E9 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B92ADD96AECC498AB1E5B871 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/tests/Simple/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		94317BCCFF7344BA945A398A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CD3F05F94A3440CBF17C3CC /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/tests/PlaySound/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9ECB655E628D4BDBA53C2360 /* CustomStream */ = {
+			isa = PBXGroup;
+			children = (
+				835DBF9352D545C4A99F4561 /* Source Files */,
+				FEFDB998A41242A396E12B06 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/CMakeLists.txt */,
+			);
+			name = CustomStream;
+			sourceTree = "<group>";
+		};
+		BE343F4C725146FBB2F7FE24 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				416FC8C40395459EA1FD1204 /* CMake Rules */,
+				69AD052EC63746238F4782F6 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		D6C9FDDA381A4C85BE42ABA0 /* PlaySound */ = {
+			isa = PBXGroup;
+			children = (
+				94317BCCFF7344BA945A398A /* Source Files */,
+				79FBC3F982C3457FB84566D5 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/CMakeLists.txt */,
+			);
+			name = PlaySound;
+			sourceTree = "<group>";
+		};
+		F86A7C4AD23E4D5F98F5004C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				32499352D9694D1588345B33 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_AudioData.cpp */,
+				E4ECF6F139AB468CAF5AFEC4 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Buffer.cpp */,
+				8C62A39BA9AC41B8A0159F7C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_CustomStream.cpp */,
+				B79054E0766A4362BB87F916 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Device.cpp */,
+				9B70E7634A10409D8542863C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_EFX.cpp */,
+				5223DFC9C769495A91958340 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_EFXManager.cpp */,
+				532FBA04154A4611B36DFF00 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Effect.cpp */,
+				2DEA0101740C4DF5A31587A8 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_EffectSlot.cpp */,
+				FEB96496DAC942B38DEC73CA /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Effect_Reverb.cpp */,
+				502CE5EF56484ED1810ED18E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Filter.cpp */,
+				4A811FF057E24D519AF330D6 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Helper.cpp */,
+				01340FD1C3D64995AAF9D7FA /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Init.cpp */,
+				70B4098FB2CA4229B9D525E1 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Loaders.cpp */,
+				6343306E1C61446DA820FA58 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_LoggerObject.cpp */,
+				CC4DEE27D4F64837B2ED1C3E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_OggSample.cpp */,
+				29DA5FEE77744F95A59AB763 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_OggStream.cpp */,
+				D653D318D792402B9C9EA87D /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Playback.cpp */,
+				8C7AF1523B5847609F2EFF14 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Sample.cpp */,
+				BCA11AE906714EE4B3920987 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Source.cpp */,
+				C5EEE128DE9143AEB032E5FE /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_SourceManager.cpp */,
+				58A897B8DECD4B3CAE24E330 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Stream.cpp */,
+				9F76A42EADC5425AB732881C /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Types.cpp */,
+				B0CCAAB3ED774D67ABE5BA73 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_WAVSample.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		316CB688566545E289932BDA /* CustomStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8B39CDD1571428DBA80C3FF /* Build configuration list for PBXNativeTarget "CustomStream" */;
+			buildPhases = (
+				C7C245AEC82D4A9694CD0DCF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA3ECBE7FA64997B6F1C204 /* PBXTargetDependency */,
+				6F3360C3762B4BC6A549C789 /* PBXTargetDependency */,
+			);
+			name = CustomStream;
+			productName = CustomStream;
+			productReference = D2E9746481FD45A48CC1892D /* CustomStream */;
+			productType = "com.apple.product-type.tool";
+		};
+		ABB67D995F8E4132AF1289F1 /* Playlist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C822F1D4B12E44D3A440B91B /* Build configuration list for PBXNativeTarget "Playlist" */;
+			buildPhases = (
+				81EB5F22F40443EFAC32BAD7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECCE09437D6A4672B1F70DB9 /* PBXTargetDependency */,
+				78EFD84670AA46DDB8BB90E1 /* PBXTargetDependency */,
+			);
+			name = Playlist;
+			productName = Playlist;
+			productReference = C4D12410ABE64F2788B71F71 /* Playlist */;
+			productType = "com.apple.product-type.tool";
+		};
+		C2A2EE9A7DCB436FAC49E4F0 /* OALWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 473E3A0A767342FD9A967894 /* Build configuration list for PBXNativeTarget "OALWrapper" */;
+			buildPhases = (
+				5D33D94A59CF46398FF519C9 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68B72DDCD93E445DBAB1E644 /* PBXTargetDependency */,
+			);
+			name = OALWrapper;
+			productName = OALWrapper;
+			productReference = BF63B521E4054C0D882037E5 /* OALWrapper */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D4786F1506834F1388639E60 /* PlaySound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88A7966D2BD45459639EA93 /* Build configuration list for PBXNativeTarget "PlaySound" */;
+			buildPhases = (
+				A42E8B865F0B46ED83EBCA7C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CA41559D9A54317BCF28D35 /* PBXTargetDependency */,
+				8F6BB804929942A0972A8930 /* PBXTargetDependency */,
+			);
+			name = PlaySound;
+			productName = PlaySound;
+			productReference = EDA6850A18E24B93BF56A6EE /* PlaySound */;
+			productType = "com.apple.product-type.tool";
+		};
+		F404CAA993864C5289AF2EBE /* SimpleTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE129D61F5154989B0E7776C /* Build configuration list for PBXNativeTarget "SimpleTest" */;
+			buildPhases = (
+				B03CFBF403AB4963BA31926F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B34813860E554835A9357898 /* PBXTargetDependency */,
+				408AC5AB8307445287142701 /* PBXTargetDependency */,
+			);
+			name = SimpleTest;
+			productName = SimpleTest;
+			productReference = 488F31A5CAC141B588949512 /* SimpleTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F9FD6DEB72C438393223A3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1210;
+			};
+			buildConfigurationList = B0A5E3FDCBE04D3BABC75A9F /* Build configuration list for PBXProject "OALWrapper" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				16C3AFE1C6EF47AA88417CAC /* Debug */,
+				C44D79BEF6034A0D820D8418 /* Release */,
+				09FCACA761D8456380DA270F /* MinSizeRel */,
+				8B2BE537A96A46C89687C15F /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 31AE9325745C4AAA827C5F3D;
+			projectDirPath = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper;
+			projectRoot = "";
+			targets = (
+				79A4FD9A882E4023B8861ED4 /* ALL_BUILD */,
+				316CB688566545E289932BDA /* CustomStream */,
+				C2A2EE9A7DCB436FAC49E4F0 /* OALWrapper */,
+				D4786F1506834F1388639E60 /* PlaySound */,
+				ABB67D995F8E4132AF1289F1 /* Playlist */,
+				F404CAA993864C5289AF2EBE /* SimpleTest */,
+				32E1487F1135465289CA502D /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14585CA81720476DAE20B942 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6C4A569374594416B2D3346F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7E10989C3BD143E2980D3C6D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper -f /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		B0F9E8CA2EE34E74B3EAD069 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper -f /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D33D94A59CF46398FF519C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E9E08B7A2904D66A92B96CD /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_AudioData.cpp */,
+				246F8B68C08944A08B1AFAA0 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Buffer.cpp */,
+				DC823CEFAFB1410EABA8B9D5 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_CustomStream.cpp */,
+				34669B47E8E94264AF9304BD /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Device.cpp */,
+				29AD753335F04F92AC9F84AF /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_EFX.cpp */,
+				660876D7D6E245D58C648A38 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_EFXManager.cpp */,
+				3CA2895DDBCC4684A73461A4 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Effect.cpp */,
+				81AEA3276F574AD48A55C12E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_EffectSlot.cpp */,
+				77253D1BE0214F8FBAC957A5 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Effect_Reverb.cpp */,
+				811B6F97EBF84042A5B15454 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Filter.cpp */,
+				A916B9A02BE445A1ACBFFA1F /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Helper.cpp */,
+				48F95A0098FF4BE3B9C4906E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Init.cpp */,
+				FBF92AA53ADE4942A7D2D90F /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Loaders.cpp */,
+				47868301BF3B49D99FC3D361 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_LoggerObject.cpp */,
+				F41224D8E93B4342AE23AB94 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_OggSample.cpp */,
+				0D93CC6D4625447CBEA97FDD /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_OggStream.cpp */,
+				506E87872D434FDBA5FB66C3 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Playback.cpp */,
+				816D2F18EA5D46CD98651570 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Sample.cpp */,
+				7F93BDD5CEF84C45BC0612D8 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Source.cpp */,
+				021B57AC4F344E2FBE719D72 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_SourceManager.cpp */,
+				E58F0B725A1C4E96BA51E3D4 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Stream.cpp */,
+				1A4E632148424A0491A7EBF1 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_Types.cpp */,
+				04A4BDFE0B2B48AF9AFCD62A /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/sources/OAL_WAVSample.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EB5F22F40443EFAC32BAD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2A0673879842B8859E60D9 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/tests/Playlist/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42E8B865F0B46ED83EBCA7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8FDD1FAE0449A1A1F96938 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/tests/PlaySound/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B03CFBF403AB4963BA31926F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04494506D6F642CAAD86531E /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/tests/Simple/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C245AEC82D4A9694CD0DCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AC8C6187754E508B38AB44 /* /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/tests/CustomStream/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CA41559D9A54317BCF28D35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2A2EE9A7DCB436FAC49E4F0 /* OALWrapper */;
+			targetProxy = 1F82B1F9315C4B34B2C7A9DF /* PBXContainerItemProxy */;
+		};
+		36875D4139F64BE1A1BCCFC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2A2EE9A7DCB436FAC49E4F0 /* OALWrapper */;
+			targetProxy = 023294C4EF3740F4A14B8E82 /* PBXContainerItemProxy */;
+		};
+		408AC5AB8307445287142701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32E1487F1135465289CA502D /* ZERO_CHECK */;
+			targetProxy = BA20C61A43F347F792212DD2 /* PBXContainerItemProxy */;
+		};
+		68B72DDCD93E445DBAB1E644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32E1487F1135465289CA502D /* ZERO_CHECK */;
+			targetProxy = 96C81ABB45E84E82B81C2BAE /* PBXContainerItemProxy */;
+		};
+		696643044D6545BC9D9F5F18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32E1487F1135465289CA502D /* ZERO_CHECK */;
+			targetProxy = CA4D9B034CB64F1A9A1FF0D9 /* PBXContainerItemProxy */;
+		};
+		6F3360C3762B4BC6A549C789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32E1487F1135465289CA502D /* ZERO_CHECK */;
+			targetProxy = 8C0BE9D419AE4248868DFBEC /* PBXContainerItemProxy */;
+		};
+		78EFD84670AA46DDB8BB90E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32E1487F1135465289CA502D /* ZERO_CHECK */;
+			targetProxy = 4D18C861FABD4B349AD00B1C /* PBXContainerItemProxy */;
+		};
+		8F6BB804929942A0972A8930 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32E1487F1135465289CA502D /* ZERO_CHECK */;
+			targetProxy = B6106E81B2544061953D9710 /* PBXContainerItemProxy */;
+		};
+		B34813860E554835A9357898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2A2EE9A7DCB436FAC49E4F0 /* OALWrapper */;
+			targetProxy = 39CC70248DC84D2D9A77B7E5 /* PBXContainerItemProxy */;
+		};
+		ECCE09437D6A4672B1F70DB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2A2EE9A7DCB436FAC49E4F0 /* OALWrapper */;
+			targetProxy = F13D9B61111142D78BF5F63B /* PBXContainerItemProxy */;
+		};
+		FDA3ECBE7FA64997B6F1C204 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2A2EE9A7DCB436FAC49E4F0 /* OALWrapper */;
+			targetProxy = 458AE3E00BF347F894C3DB4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04CA3DB0223F4B0597B7E6BC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_SDL2);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing        -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper/RelWithDebInfo/libOALWrapper.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbisfile.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbis.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libogg.a -framework OpenAL /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libSDL2.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CustomStream;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0DE6D9B861F141069A0DDAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		17CAA3B29A28480CBEED9BFB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_SDL2);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing        -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper/RelWithDebInfo/libOALWrapper.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbisfile.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbis.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libogg.a -framework OpenAL /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libSDL2.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Playlist;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1D5616F989A5475DAC9A8BDF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_SDL2);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing        -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper/RelWithDebInfo/libOALWrapper.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbisfile.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbis.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libogg.a -framework OpenAL /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libSDL2.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PlaySound;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		259A073B2165415387D7CB90 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2CB61891468946FCBF06689A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_SDL2);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/include/SDL2,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/../dependencies/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OALWrapper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		342E58FE2D0C407BB67E35F9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		448B3E518791475CA9707444 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper/build;
+			};
+			name = MinSizeRel;
+		};
+		53A44B040E78456D86993AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_SDL2);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper/Debug/libOALWrapper.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbisfile.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbis.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libogg.a -framework OpenAL /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libSDL2.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SimpleTest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5A1AAB8A5E9A411B956BDB51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		60F99AFA3C6745AE9A83A14B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_SDL2);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing        -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper/RelWithDebInfo/libOALWrapper.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbisfile.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbis.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libogg.a -framework OpenAL /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libSDL2.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SimpleTest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6965FF1F57A4477F823091E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_SDL2);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper/Debug/libOALWrapper.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbisfile.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbis.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libogg.a -framework OpenAL /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libSDL2.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PlaySound;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		71D61AECBA9B47C0A81E760F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper/build;
+			};
+			name = Debug;
+		};
+		76C9DF3052F74590B35B9954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_SDL2);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper/Debug/libOALWrapper.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbisfile.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbis.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libogg.a -framework OpenAL /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libSDL2.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Playlist;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		86B9AC17125C4DA9AAB02714 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_SDL2);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/include/SDL2,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/../dependencies/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing        -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OALWrapper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		87EEAC6A8DBE4CB0B4EFF8F2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_SDL2);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/include/SDL2,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/../dependencies/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing     -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OALWrapper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8E845EB777A24F8EB7E39EA6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_SDL2);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing     -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper/MinSizeRel/libOALWrapper.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbisfile.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbis.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libogg.a -framework OpenAL /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libSDL2.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SimpleTest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8F4BA237067F400B827FF7DE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_SDL2);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing     -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper/MinSizeRel/libOALWrapper.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbisfile.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbis.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libogg.a -framework OpenAL /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libSDL2.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Playlist;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9BC1CAB8C2B24F37B97B3C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_SDL2);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing     -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper/Release/libOALWrapper.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbisfile.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbis.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libogg.a -framework OpenAL /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libSDL2.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SimpleTest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9D6666A2374F4DCEB582CBF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_SDL2);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper/Debug/libOALWrapper.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbisfile.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbis.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libogg.a -framework OpenAL /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libSDL2.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CustomStream;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9E137A925E9A48F2899EB0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A54C26A86BD74EBCB033CF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_SDL2);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing     -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper/Release/libOALWrapper.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbisfile.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbis.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libogg.a -framework OpenAL /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libSDL2.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PlaySound;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A940B7F38CC346BAB436621A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper/build;
+			};
+			name = RelWithDebInfo;
+		};
+		AE6A3B6E905A4DB3A7AD1F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_SDL2);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing     -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper/Release/libOALWrapper.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbisfile.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbis.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libogg.a -framework OpenAL /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libSDL2.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Playlist;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BDE864F000A6460E9E9E8A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_SDL2);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/include/SDL2,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/../dependencies/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing     -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OALWrapper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BF982E4F57F04BE7873278DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_SDL2);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing     -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper/Release/libOALWrapper.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbisfile.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbis.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libogg.a -framework OpenAL /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libSDL2.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CustomStream;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C0016319F211430AA5E63CB5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_SDL2);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing     -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper/MinSizeRel/libOALWrapper.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbisfile.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbis.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libogg.a -framework OpenAL /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libSDL2.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CustomStream;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C2CB187338C54A41AE2498EF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_SDL2);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper,/Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/OALWrapper/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -fno-strict-aliasing     -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper/MinSizeRel/libOALWrapper.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbisfile.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libvorbis.a /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libogg.a -framework OpenAL /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/dependencies/lib/macosx/libSDL2.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PlaySound;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CBB8F0F3E4E1483B8BCA5F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper/build;
+			};
+			name = Release;
+		};
+		CBD0F5C1B9E64925BA1BA211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F44D3867A1E0498D8188897A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F5AC8DA973F84EF3AC37F1D8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/arthur/Documents/Creations/Frictional/AmnesiaTheDarkDescent/HPL2/core/OALWrapper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		473E3A0A767342FD9A967894 /* Build configuration list for PBXNativeTarget "OALWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CB61891468946FCBF06689A /* Debug */,
+				BDE864F000A6460E9E9E8A96 /* Release */,
+				87EEAC6A8DBE4CB0B4EFF8F2 /* MinSizeRel */,
+				86B9AC17125C4DA9AAB02714 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		600C24BE9F114683A0A94FAA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E137A925E9A48F2899EB0B8 /* Debug */,
+				CBD0F5C1B9E64925BA1BA211 /* Release */,
+				342E58FE2D0C407BB67E35F9 /* MinSizeRel */,
+				259A073B2165415387D7CB90 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A947071992AE49FFAA78335F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DE6D9B861F141069A0DDAD3 /* Debug */,
+				5A1AAB8A5E9A411B956BDB51 /* Release */,
+				F44D3867A1E0498D8188897A /* MinSizeRel */,
+				F5AC8DA973F84EF3AC37F1D8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B0A5E3FDCBE04D3BABC75A9F /* Build configuration list for PBXProject "OALWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71D61AECBA9B47C0A81E760F /* Debug */,
+				CBB8F0F3E4E1483B8BCA5F12 /* Release */,
+				448B3E518791475CA9707444 /* MinSizeRel */,
+				A940B7F38CC346BAB436621A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C822F1D4B12E44D3A440B91B /* Build configuration list for PBXNativeTarget "Playlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C9DF3052F74590B35B9954 /* Debug */,
+				AE6A3B6E905A4DB3A7AD1F1A /* Release */,
+				8F4BA237067F400B827FF7DE /* MinSizeRel */,
+				17CAA3B29A28480CBEED9BFB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C8B39CDD1571428DBA80C3FF /* Build configuration list for PBXNativeTarget "CustomStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6666A2374F4DCEB582CBF1 /* Debug */,
+				BF982E4F57F04BE7873278DC /* Release */,
+				C0016319F211430AA5E63CB5 /* MinSizeRel */,
+				04CA3DB0223F4B0597B7E6BC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D88A7966D2BD45459639EA93 /* Build configuration list for PBXNativeTarget "PlaySound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6965FF1F57A4477F823091E4 /* Debug */,
+				A54C26A86BD74EBCB033CF88 /* Release */,
+				C2CB187338C54A41AE2498EF /* MinSizeRel */,
+				1D5616F989A5475DAC9A8BDF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EE129D61F5154989B0E7776C /* Build configuration list for PBXNativeTarget "SimpleTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53A44B040E78456D86993AE4 /* Debug */,
+				9BC1CAB8C2B24F37B97B3C74 /* Release */,
+				8E845EB777A24F8EB7E39EA6 /* MinSizeRel */,
+				60F99AFA3C6745AE9A83A14B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F9FD6DEB72C438393223A3E /* Project object */;
+}
